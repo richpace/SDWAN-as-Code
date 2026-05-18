@@ -1,0 +1,11 @@
+**Meeting:** SDWAN-as-Code Team Enablement Program - Kick-Off
+**Host:** Rich Pace
+**Date:** April 6, 2026
+
+**Key Takeaways & Decisions:**
+*   **The Catalyst (American Family Insurance):** Rich shared a recent interaction revealing that a major customer is already deploying ACI and SDWAN-as-Code independently, driven by their internal DevOps culture. This validated the reality that the industry is moving, and the team must be prepared to support these environments.
+*   **Addressing the Training Gap:** The team acknowledged that past training directives were incomplete and highly CLI-driven, leading to low adoption. This program will focus on a ground-up understanding of the tools rather than top-down mandates.
+*   **The "Single Pane of Glass" Myth:** The team discussed the ambition of centralized controllers. Rich emphasized the need to use the right tool for the right job (the "hammer" vs. the "Swiss Army Knife") rather than waiting for a perfect, monolithic interface that may never exist.
+*   **Lab Strategy:** Anupam suggested building a working lab together immediately. Rich and Phil Toy agreed on the end goal but cautioned against rushing. Phil noted significant errors when trying to set up the environment on a Mac. The team agreed to understand the tools *before* attempting to build the lab to avoid early frustration.
+*   **Enthusiasm & Cadence:** The team responded highly positively to the initiative. Phil Toy expressed a desire to meet twice a week due to the urgency of the information. The team ultimately agreed on a sustainable **bi-weekly cadence**.
+*   **Next Session (VS Code):** A poll revealed that 11 out of 13 attendees have VS Code installed, but many may not be actively using it. The next session will focus on demystifying VS Code and demonstrating its practical use.

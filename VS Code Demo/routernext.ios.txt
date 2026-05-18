@@ -1,0 +1,30 @@
+hostname CHI-CORE-RTR01
+!
+interface Loopback0
+ ip address 10.20.255.1 255.255.255.255
+!
+interface GigabitEthernet0/0
+ description WAN_UPLINK_PRIMARY
+ ip address 192.168.10.2 255.255.255.252
+!
+interface GigabitEthernet0/1
+ description WAN_UPLINK_BACKUP
+ ip address 192.168.20.2 255.255.255.252
+!
+interface GigabitEthernet0/2
+ description LAN_CORE_TRUNK
+ ip address 10.20.1.1 255.255.255.0
+!
+router ospf 1
+ router-id 10.20.255.1
+ network 10.20.0.0 0.0.255.255 area 0
+ network 10.20.255.1 0.0.0.0 area 0
+!
+router bgp 65000
+ bgp log-neighbor-changes
+ neighbor 192.168.10.1 remote-as 65001
+ neighbor 192.168.10.1 description AT&T_PRIMARY_CIRCUIT
+ neighbor 192.168.20.1 remote-as 65002
+ neighbor 192.168.20.1 description VERIZON_BACKUP_CIRCUIT
+!
+end

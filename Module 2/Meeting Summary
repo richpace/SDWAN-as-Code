@@ -1,0 +1,39 @@
+Overview
+Key participants in this meeting include Rich Pace, Derek Chu, Phil Toy, John Ryan, Anupam Dey, Abdul Sabir, and others. The primary focus is an in-depth introduction to Visual Studio Code (VS Code) as a versatile development environment, emphasizing its workspace capabilities, extension ecosystem, and profile management. Rich Pace leads the demonstration, showcasing how VS Code can streamline file management and editing tasks relevant to network as-code projects.
+The discussion highlights the critical role of extensions in enhancing VS Code's functionality, with examples like CSV viewers, Cisco iOS syntax highlighters, and YAML support. The concept of profiles is introduced to manage different project requirements and avoid extension conflicts. Integration with AI tools such as Circuit and Cloud Code is explored, noting current limitations and the potential benefits of tighter integration to improve productivity while adhering to Cisco's data governance policies.
+Participants delve into the token-based usage model of AI services, clarifying how token consumption impacts session length and costs. Circuit is noted for its generous token limits but slower response times. The meeting concludes with plans for future sessions on GitHub and version control, encouraging collaboration and resource sharing to enhance learning. Overall, the session provides a comprehensive foundation for using VS Code and associated tools effectively in as-code network environments.
+
+
+Detailed Summary
+Introduction to VS Code
+Rich Pace introduces Visual Studio Code (VS Code) as a powerful workspace tool beyond a simple text editor. He demonstrates opening folders, managing files, and viewing multiple files side by side, emphasizing its utility for organizing and accessing project files efficiently.
+Rich Pace explains VS Code is more than a text editor; it's a workspace for managing folders and files.
+Rich Pace demonstrates opening multiple files side by side for easier comparison and editing.
+Rich Pace highlights the integrated terminal in VS Code that allows running commands without leaving the workspace.
+VS Code Extensions and Functionality
+The discussion focuses on the importance of VS Code extensions to enhance functionality, such as syntax highlighting and file formatting. Rich shows examples like CSV and Cisco iOS syntax extensions, explaining how they improve readability and usability. Participants discuss extensions for YAML and other coding languages relevant to their work.
+Rich Pace demonstrates installing CSV and Cisco iOS syntax extensions to improve file readability.
+Phil Toy notes extensions can format code and enforce style guides for languages like Python and Markdown.
+Abdul Sabir and others mention YAML extensions as essential for as-code work in network configurations.
+Profiles in VS Code
+Rich explains the use of profiles in VS Code to manage different sets of extensions and configurations for various projects or environments. Profiles help avoid conflicts between extensions and allow synchronization across devices. The analogy of profiles as toolboxes for different jobs is discussed.
+Rich Pace describes profiles as customizable sets of extensions tied to specific folders or projects.
+John Ryan compares profiles to toolboxes containing the necessary tools for each job.
+Phil Toy confirms profiles can prevent extension conflicts and synchronize settings across devices.
+Integration with AI Tools and Circuit
+The team discusses integrating VS Code with AI tools like Circuit and Cloud Code to enhance productivity. Rich shares experiences using Cloud Code alongside Claude AI for code manipulation. The potential for a Circuit extension in VS Code is considered, highlighting benefits and current limitations regarding data privacy and governance.
+Rich Pace uses Cloud Code with VS Code to automate file manipulations based on AI instructions.
+Phil Toy suggests integrating Circuit with VS Code to streamline as-code YAML file editing with AI assistance.
+Anupam Dey explains Circuit acts as a broker connecting to various AI models with guardrails to protect sensitive data.
+Rich Pace emphasizes Cisco's governance on AI tool usage, especially regarding customer data confidentiality.
+Token System in AI Tools
+Participants explain the token system used by AI services like Anthropic and ChatGPT, where tokens represent units of text processed. They discuss how token limits affect session length and usage costs, with Circuit offering advantages in session limits but slower response times.
+Rich Pace describes tokens as units of text that AI models process, affecting usage limits.
+Anupam Dey explains tokens are consumed based on input complexity and output formatting requirements.
+Phil Toy notes longer AI conversations consume tokens faster due to history retention.
+Rich Pace and others highlight Circuit's higher token limits but slower performance compared to other AI tools.
+Future Sessions and Learning Resources
+The group plans upcoming sessions focusing on GitHub and its integration with VS Code, aiming to demystify version control and repository management. Participants share resources like Git eBooks and discuss collaboration opportunities to share content and expertise.
+Rich Pace plans a session on GitHub to clarify its role and integration with VS Code.
+John Ryan encourages sharing existing materials to support the training program.
+Phil Toy recommends a Git eBook as a valuable learning resource for beginners.

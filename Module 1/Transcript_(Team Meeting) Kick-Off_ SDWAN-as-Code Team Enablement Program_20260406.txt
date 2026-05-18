@@ -1,0 +1,309 @@
+0:03 : Rich Pace : Excellent.
+1:38 : Anupam Dey : Very Rich.
+1:40 : Rich Pace : How are you doing?
+1:41 : Anupam Dey : Good, how are you?
+1:43 : Rich Pace : Hi, I'll see him about an hour.
+1:48 : Anupam Dey : Yeah, I'll have to jump out of this call. I'll come back in another half hour, probably fifteen, twenty minutes I have to jump into a call another call with the customer.
+1:56 : Rich Pace : No, no worries.
+1:59 : Rich Pace : I'm not sure how this is gonna go. So.
+2:09 : Rich Pace : Any chance you got that read that little white paper that I put out last week?
+2:14 : Anupam Dey : Highlighted that. It was pretty decent.
+2:17 : Rich Pace : I found that's good feedback I guess. There's a lot of it's based on a lot of, a lot of my opinions, but.
+2:26 : Anupam Dey : I think it's gonna.
+2:27 : Rich Pace : Hopefully it addresses what I see is roadblocks that we'll see.
+2:56 : Anupam Dey : I think at this point of time.
+2:59 : Anupam Dey : The engineer should actually just have sessions with the customer, like set it up on their laptop, have a session with the customer, educate them, but I'll I'll talk more with you one on one later. I'll jump off this call. I'll I'll be back rich.
+3:13 : Rich Pace : Okay, thank you Anapam.
+3:15 : Anupam Dey : Okay, talk to you bye.
+3:42 : John Ryan : Roman.
+3:44 : Rich Pace : Anupam was just here. He had a customer thing he said in back in thirty minutes or so.
+3:58 : Abdul Sabir : Hi everyone.
+4:02 : John Ryan : How's it going?
+4:55 : Abdul Sabir : Okay.
+5:14 : John Ryan : I'm.
+5:16 : John Ryan : I'm.
+5:17 : Jim Phillipo : Hasn't that one? Yeah.
+5:22 : John Ryan : Sounds great.
+5:23 : Jim Phillipo : Nice.
+5:32 : John Ryan : Yeah, my daughter down in South Carolina.
+5:36 : John Ryan : It's fantastic.
+5:40 : Jim Phillipo : Weather was much better.
+5:42 : John Ryan : It was definitely warmer for sure.
+5:50 : Rich Pace : Where it's south Carolina?
+5:55 : John Ryan : Cool little town.
+6:01 : John Ryan : Very cheap, but cool little town.
+6:13 : John Ryan : I can get going about three after Richard.
+6:19 : Rich Pace : What time is it now?
+6:21 : John Ryan : O three.
+6:23 : Rich Pace : Five minutes, ok.
+8:14 : Rich Pace : I guess this is it.
+8:17 : Rich Pace : I.
+8:18 : Rich Pace : Well, team, so I was talking with John last week and we were discussing some of these SD WAN as code.
+8:27 : Rich Pace : Initiatives that we have internally, and some of the challenges that we have is far as adoption within the team, specifically within the team, but I think throughout CX in general, I shared with them.
+8:44 : Rich Pace : I shared my viewpoints, my perspectives.
+8:49 : Rich Pace : And what I think the challenges are, and.
+8:53 : Rich Pace : He trusts me down and told me that that's great that I have a lot of opinions, but I never do anything about them. So this is what I'm gonna try to do.
+9:01 : Rich Pace : I.
+9:03 : Rich Pace : So I'll share some of those opinions and I'll get into this the the the slides.
+9:11 : Rich Pace : I am I have been a skeptic of the whole thing for the beginning, three years ago I was invited to go to RTP to see the, the, the initial SD WAN S code training.
+9:24 : Rich Pace : And I raised my concerns then as well. Over the years.
+9:31 : Rich Pace : I.
+9:32 : Rich Pace : Until recently, I remained pretty skeptical.
+9:38 : Rich Pace : And I just don't see it and everything that we've been told about SD WAN is code and how it's coming and how it's inevitable and all of that, I just don't see it. I don't see it materializing. However, last week I was having a conversation with American family insurance who we just did a design project with. And.
+9:59 : Rich Pace : Throughout the conversations I heard a lot of talk about Terraform and CICD and all this stuff that they do with their software development. So I thought they might be a good candidate.
+10:14 : Rich Pace : For us to interface with to do SD WAN as code. So I brought it up last week.
+10:21 : Rich Pace : And they told me they're already doing it. They're, they're they're already doing ACI as code SD and SD WAN as code will be up and running in two months. With, and they're doing it without us.
+10:32 : Rich Pace : So.
+10:37 : Rich Pace : You know when my initial disbelief, when I keep hearing that, you know, this is coming down the road, customers are asking for it and I was like yep name one. Well, I have one now. And.
+10:49 : Rich Pace : If american family insurance is doing it and they did it on their own, it's probably a safe assumption to say that maybe other customers are gonna be doing it as well. And we're gonna have to be ready for it because we cannot go into a customer and do a network migration project if they're running an as code environment and we are unprepared to do it.
+11:12 : Rich Pace : Having said that, I also feel that we have been told, learn this, here's a new technology, go learn it, go figure it out. And the training that we've been given is incomplete or it's just kind of go, go do it and check.
+11:30 : Rich Pace : Box and tell me that you've done it. Which doesn't generate a lot of confidence because some of the tools don't work and some of us may feel comprehensive of reaching out and asking for help so that we don't. And because there's been no pressure other than being told to learn it, there's been no pressure for us to learn it. We just don't.
+11:51 : Rich Pace : I don't know how many people feel that way, but I know I feel like that in the past as well. I'm trying to be very honest. So.
+12:00 : Rich Pace : I've been learning HTML and learning a couple of other things for some other personal projects and using VS code and, and learning GitHub and all that. And they can start seeing some of the value. And I don't know how many of you read that little white paper, whatever you wanna call it.
+12:20 : Rich Pace : That I shared last week, that is, that was meant to be an introduction to this call. I'm not gonna go over the paper. It's there to be read. I'm not gonna read for you. I don't think that's what presentations are for. I just wanna go through this meeting as kind of a kickoff of this initiative if it continues of what I think we could be doing mo.
+12:40 : Rich Pace : Moving forward. Any, any thoughts or questions or concern.
+12:49 : Rich Pace : If you wanna make a comment like, you know, Rich that you're absolutely correct, I feel the same way. I would welcome that.
+12:58 : Rich Pace : I guess I'm the only one.
+12:59 : John Ryan : I will I will add commentary just quickly when we, when Rich and I talked about this last week, I don't necessarily I wouldn't necessarily call it addressing down, but, you know, an enlightenment perhaps or just a fact finding mission. What I wanna try and get to here is kind of everybody's working on their own.
+13:20 : John Ryan : Journey in their own journey on these SAS code.
+13:24 : John Ryan : Kind of program. And I talked to, I talked to every one of you, so I kind of understand where each and every one of you are in this journey if you're even on it.
+13:33 : John Ryan : And and what I would hope hope we could get to a point that's, you know, sometime in the not too distant future is to kind of get everybody up to the same.
+13:45 : John Ryan : In in that journey. And that is to be able to talk intelligently to a customer about our as code, call it a philosophy or our methodology, our solution in any given discipline that we're supporting in this case, I I would like to focus on SD WAN. I'll be able to talk to them intelligently about it and help them.
+14:07 : John Ryan : You know, move forward in that direction if they so choose, right? But simply, not doing anything isn't, isn't gonna be an acceptable answer. So, it's it like, like I told you before, it's directed from our leadership that we get prepared to support this.
+14:26 : John Ryan : This methodology, and when it comes, if it comes and when it comes, we gotta be ready. So I asked Tal to Rich and asked him if we could start. He calls on an enabling program. I like the title, I think the paper that he put together, if you haven't read it, I think you should read it. I was inspired by it and more hopeful than I had ever been.
+14:48 : Rich Pace : Good, thank you John. Go ahead and s.
+14:51 : Phil Toy : As far as your project, the, would you say the American family or whatever.
+14:56 : Rich Pace : Uh.
+14:57 : Phil Toy : You say they're going to do it themselves and I'm curious and maybe, maybe you aren't able to answer this just yet, but are they going to do it with the same methodology that, you know, we would do if we were deploying it for them or are they developing, you know, an a different.
+15:17 : Phil Toy : Methodology to do it?
+15:22 : Rich Pace : I don't know all the details of what they're doing.
+15:26 : Rich Pace : I have to assume that the methodology itself will be either the same or very similar, the tools might be different.
+15:33 : Phil Toy : Yeah, let me let me ask you one more question real quick. So that you said that they've done it with ACI, did we help them do the ACI.
+15:41 : Rich Pace : It doesn't sound that way.
+15:42 : Phil Toy : So they've done all of this on their own. They.
+15:45 : Rich Pace : We're very strong dev OPs background, and I guess they read about this and they dected to do the same thing before the same reasons that everybody is advocating that everybody should do this. Right.
+15:58 : Phil Toy : Okay.
+16:04 : Rich Pace : Okay, so I'll go through these slides Hopefully there are too many. I don't wanna bore you, I'm not gonna read off the slides. I'm I may read some notes from for each slide that I have, but, I just wanna kind of introduce the program and what I think it should be going forward. However.
+16:23 : Rich Pace : I also wanna stress that this is a team initiative. So we can pivot in any direction that the team feels we should. What I don't wanna do this is, you know, one person just talking and then I don't wanna set a labs or set up anything, everybody should be able to do this on their own. But this is a way to get everybody exposed to.
+16:43 : Rich Pace : The same tools and ideas at the same time. And if you have any experiences or anything like that that you wanna share as we go through, I mean, please don't interrupt, but.
+16:55 : Rich Pace : It's kind of an open forum in that in that respect, ok?
+17:04 : Rich Pace : So SD WAN or our history, so three years ago, of CX started into this journey, at least three years ago is when, I went to RTP for that and initial class. Now.
+17:21 : Rich Pace : It's been around for a long time now, and.
+17:26 : Rich Pace : We're gonna have to do something about it. It is a directive and I think we just need, we need to finally get around to it.
+17:34 : Rich Pace : This pipeline that we keep hearing about, it's I alluded to this earlier.
+17:40 : Rich Pace : It just doesn't seem to be materializing. We keep for three years we've been told it's coming, it's coming, it's coming, we don't see it.
+17:49 : Rich Pace : But now I have to ask the question, you know, it's a critical question, it's a self critical question. It's like, am I not seeing it because I'm not ready to see it or am I not seeing it because there's nothing there? And as of last week, when American family insurance told me that they were already doing it, that was kind of an eye opener for me, and it's like no, people are gonna be doing it, right? If.
+18:09 : Rich Pace : They're serious about DevOps, which is a very sound software development methodology.
+18:19 : Rich Pace : They they they're probably gonna now adopt this, you know, net dev ops as well.
+18:26 : Rich Pace : So.
+18:28 : Rich Pace : We are not here to create this pipeline. We have salespeople and we have other enablers to do that, but we're here to, you know, we we need to be ready for it when it comes. Let's just be thankful that in the past three years it really hasn't come. So we have an opportunity to do it now to get ready for it now.
+18:47 : Rich Pace : Questions so far? Thoughts? Concerns? Issues.
+18:58 : Rich Pace : So this is where at least my skepticism comes in. Basically, all of it, I've just been told by several layers, right? Do this, go learn this, go figure this out. Go do this, right? And it is an entire paradigm shift to what we usually do. We usually get on a CLI keyboard and we type things in. But if you think over the years.
+19:19 : Rich Pace : Right, we have been trying to figure out ways to automate things, automate ways of configuring devices. We, we store things into.
+19:31 : Rich Pace : Files and we, we created our own templates of like what things should look like, and we did a whole lot of copy pasting into configurations.
+19:44 : Rich Pace : This is supposed to make all of that easier, and and hopefully I'll show how, right? But.
+19:51 : Rich Pace : But as I said, it is.
+19:54 : Rich Pace : It's a huge paradigm shift to the way that we usually configure and manage networks. But hopefully.
+20:02 : Rich Pace : If we understand it, we'll see the benefits and start adopting it.
+20:09 : Rich Pace : I.
+20:11 : Rich Pace : It's just been I I believe that.
+20:15 : Rich Pace : The training and directives that we've given so far have incomplete, right? They're just go do this, go figure it out. And.
+20:24 : Rich Pace : The opportunities that we've had are not easy to follow for everybody, right? Because there's a lot of assumptions of as to what our capabilities are without looking at each individual, ok? So we wanna build a genuine, we wanna use this team effort to.
+20:41 : Rich Pace : Approach each tool.
+20:43 : Rich Pace : Systematically from the bre from the bottom up, from the ground up, not top down.
+20:49 : Rich Pace : Okay.
+20:51 : Rich Pace : So I don't know how, how long.
+20:55 : Rich Pace : You've been around, but this triple E framework for learning is has been at Cisco for a very long time. I've been here.
+21:06 : Rich Pace : I guess.
+21:09 : Rich Pace : Twenty six years and eight days, so sorry this whole and I can remember this. So the triple AES is education, exposure, and experience. There's nothing I can do or we can do about experience other than get on projects that are are doing this in order to get hands on. But as far as education and exposure, that's where i'm.
+21:29 : Rich Pace : Focus is gonna be. So that accounts with thirty percent. That's all we're gonna be doing here. The experience is up to the individual and maybe John.
+21:42 : Rich Pace : But this is what I have in the back of my mind when I'm going through this is I, I don't want to just go do this lab, go figure this out, go learn YAML, go learn Terraform, go learn the GitHub, I want us to understand what each tool is, so we as individuals can learn how to use them properly.
+22:03 : Rich Pace : So.
+22:08 : Rich Pace : I'm an old man, I've been coding for forty years, right? I understand how DevOps.
+22:14 : Rich Pace : Is trying to address.
+22:16 : Rich Pace : And I just started playing with it on personal project myself, and I can see the benefits of doing it. I can see the benefits of what GitHub is trying to do and and all of that stuff. So, so what DevOps was, was trying to resolve is you had a bunch of developers all working on the same project, all uploading the same thing, and.
+22:36 : Rich Pace : And what one person went mouth, one person might do something and the other another person might overwrite it the next minute, right? So it was trying to make sense of keeping the most current.
+22:50 : Rich Pace : Software in place and any change had to be peer reviewed and had to be scheduled and every, and everything had to be put in this you know into into the code a certain way. In order to stabilize the development of applications.
+23:10 : Rich Pace : The difference between DevOps and our infrastructure is code methodology is that that methodology was developed for software development, for software engineering, not for networks, networks or not a host in one in one place, networks are configurations distributed throughout an entire enter.
+23:32 : Rich Pace : So there's not a one hundred percent fit, but so we are kind of trying to wedge into this.
+23:39 : Rich Pace : But even though there's not a hundred percent fit, right? There's a significant enough overlap that the same principles can apply, and then the where it doesn't fit, we'll figure it out. We'll roughly, you know, we'll have some rough edges and we'll just make it fit. But it can't be done.
+24:04 : Rich Pace : So there's a lot of talk about imperative versus declarative, right? And so let's understand what that means. Imperative is what we do with the CLI, right? We go in, we, we, we, we, you know, we hand type it in, we try to make automation by putting everything in the file first, copy pasting, into it. But that is error.
+24:24 : Rich Pace : Prone as well.
+24:27 : Rich Pace : Imperative is also we have tried to standardize templatization of our configurations with platforms as vmanage and I'm assuming ACI and other data center technologies do similar things.
+24:41 : Rich Pace : And in my opinion, in my opinion temporarization is the way to go. And I think temporarization also addressed a lot of issues, but the GUI can become gumb cumbersome and it is also error prone. It everything is error prone, but it's reducing the proneness of the errors that we're trying to get to. And these networks that we're dealing with are very.
+25:02 : Rich Pace : Very, very large.
+25:04 : Rich Pace : So there's a lot of data that we have to comb over.
+25:09 : Rich Pace : Declarative is.
+25:13 : Rich Pace : Instead of defining everything in a template, and putting the configuration in there that we say, ok, well, I know I have to figure this this way in order to make it work, right? I need I I know I need to do it this way and let me just put it in. Declarative is.
+25:33 : Rich Pace : I think it should look like this.
+25:36 : Rich Pace : It's more, you're you're you're you're declaring the intent of what it should look like, right? So if I say.
+25:45 : Rich Pace : I'm not part of S code, but if I said, you know, I want every site to be running OSPF and.
+25:51 : Rich Pace : When they go onto the WAN, they're going to, we're gonna go into beach you know, we're gonna use BGP, so I need to have that interface there as well. And i'm may wanna do layer three to the switch, to, to a switch or layer two to the switch, whatever I do, right? But that i'm declaring the intent of what I want the network to look like.
+26:13 : Rich Pace : And that is where this can help, right? So because that declaration helps drives what the templates look like and it helps once they're in place, everything has to conform to that. So we say it must look like this. These are things by the way, that we've been doing in our industry for decades, but it hasn't been.
+26:34 : Rich Pace : Formalized. This is actually formalizing it and creating a framework around it that enforces it, that makes sure that it happens.
+26:44 : Rich Pace : Me personally, it seems frustrating at first because it seems like there's someone telling you what you can and can't do to the network. It also seems like it's a very rigid environment if you all you wanna do is a simple change, but that SIP, putting this framework in place actually protects the network. It forces everybody to ensure that any change.
+27:04 : Rich Pace : In the network has been reviewed, has been gone, gone through a process, it's gonna fit the way that it it should fit.
+27:13 : Rich Pace : And then there's another buzzword item potency. I had to look it up. I think this word, the way it's being used, is.
+27:24 : Rich Pace : Is derived from the item potent word. An item poent is just a mathematical function that when you apply it, it equals itself. So like one times one equals one.
+27:35 : Rich Pace : Right, so item point C in the in the vernacular of.
+27:39 : Rich Pace : As code just means that it doesn't matter how many times you do it, you always get the same result. If you're just trying to do a specific thing.
+27:51 : Rich Pace : I don't know if it's worth knowing past that, other than it's a great buzzword that you may hear, but.
+27:59 : Rich Pace : But hopefully this removes the missessism around it.
+28:05 : Rich Pace : Okay, so because this DevOps methodology is around.
+28:12 : Rich Pace : Software engineering, a lot of the tools are software engineering centric, and we have to adapt them to what we are trying to do or we.
+28:25 : Rich Pace : The one thing, and.
+28:28 : Rich Pace : The key thing is the IDE, right? What we work with is, you know, and the most popular IDE out there is VS code. If you never use VS code, you load it and then you look at the screen and you wonder what you're doing because.
+28:46 : Rich Pace : Nobody told you what to do with it.
+28:51 : Rich Pace : As you start playing around with VS code, you can start seeing the benefits and you can start seeing how it can be used in different ways. It is a very powerful tool. I'm not gonna go into the details of it today.
+29:08 : Rich Pace : But it is kind of like the orchestrator of all of everything else. It as far as I'm concerned, is the way that I see it, my, my, my perspective may change.
+29:19 : Rich Pace : I.
+29:22 : Rich Pace : That is one of several tools.
+29:27 : Rich Pace : What I would like or what my vision is for these sessions is.
+29:34 : Rich Pace : We're not gonna, it's not to introduce the entire solution SD WAN as code all at once. Every tool in place everything, right? I I would like us to review the tools one at a time, take our time, right? Not too much time, but take our time so we can get comfortable with the tools so we understand the tools. So, one of the things that I was thinking last week is.
+29:59 : Rich Pace : This exercise, this whole thing may not work. Our leadership could be wrong.
+30:06 : Rich Pace : But if we're gonna challenge them, we need to challenge them with facts and and things instead of like I just don't think it's gonna work, right? Because that if you do that, you're just in the way.
+30:18 : Rich Pace : So that's why I want to approach this as.
+30:22 : Rich Pace : Let's understand the tools, let's understand the process. Let's become experts at what we're trying to do so we can challenge it appropriately Instead, if it needs to be challenged. You know, they could still be right.
+30:39 : Rich Pace : But with that, with, with the knowledge of the tools, the knowledge of the process, we can actually help move this along or steer it in the right direction, right? Maybe they're going in the wrong direction. Maybe it's just the nudge that they need, but if we don't understand the process, we can't help that. We can't be the ones that nudge them.
+31:01 : Rich Pace : Other buzzwords quote as a documentation, that is a reference to.
+31:07 : Rich Pace : GitHub and ideally one of our sessions will revolve around GitHub and we'll call them the code is a documentation is, if you want to know what my opinion is right now, I can tell you, but I, I don't want to get into those details just yet.
+31:29 : Rich Pace : But the idea is that we want to.
+31:35 : Rich Pace : With these sessions.
+31:37 : Rich Pace : Learn the tools, learn the tools individually so we know how to put them together and use them in a way that they complement each other in order to achieve this goal.
+32:01 : Rich Pace : So how does this apply to SD WAN? Because we're trying to focus this with SD WAN, is.
+32:07 : Rich Pace : And.
+32:10 : Rich Pace : Despite what the V managed GUI was meant to do and I think it did bring a lot of benefits and a lot of paradigm shifts to what we've been doing in the past, it is just as prone to human error as a CLI is. Especially I don't wanna go into too many details, but.
+32:29 : Rich Pace : As our feature set has grown.
+32:34 : Rich Pace : We appear to be struggling to.
+32:37 : Rich Pace : Have the GUI match the feature sets.
+32:41 : Rich Pace : Oh, not only that, customers are coming with really.
+32:46 : Rich Pace : Cornerstone ideas or requirements that our developers did not anticipate because honestly, nobody would have, because some of our customers really do some really dumb stuff with our, with our equipment. But it's it's their equipment and they can do whatever they want with it, and they come to us for help.
+33:14 : Rich Pace : So this is the introduction.
+33:16 : Rich Pace : The the call today was just meant to be an introduction to this series. My, my vision was the next number of sessions would be going around VS code, just to get people comfortable to see what he can do.
+33:34 : Rich Pace : And then just to invite everybody till download VS code, without, without an idea of what to do. It's probably gonna feel pretty worthless at the beginning.
+33:45 : Rich Pace : I'm.
+33:47 : Rich Pace : And then we'll just start going around poking around what you can do. I am not a fan of showing up to presentations where people are just like, yeah, you can just do this. I don't think projecting what somebody does onto everybody else comments like if I can do it, you can do it is it's not helpful.
+34:07 : Rich Pace : Right? Because if we can't, for whatever reason, then we don't feel like we're capable of, you know, of doing these things or that we're not as smart and.
+34:18 : Rich Pace : By no means is that the case, we're just different and our strength is gonna come from the diversity. We're gonna look at the same problem in different ways and we'll collaborate to develop a solution.
+34:32 : Rich Pace : So.
+34:34 : Rich Pace : Any thoughts, any questions? Because I think that is it. Yep.
+34:39 : Abdul Sabir : Any concern.
+34:40 : Rich Pace : I'm sorry?
+34:42 : Abdul Sabir : Yeah I got a question for you.
+34:45 : Abdul Sabir : Early part of the presentation when you mentioned the review, I'm not sure if you said peer review or review, but yes. Is that done by one of the tools or that actually like the legacy method of human beings doing it.
+35:03 : Rich Pace : I think it's potentially a combination of both.
+35:07 : Rich Pace : And and when I mean by that is.
+35:12 : Rich Pace : You have a team to collaborate on what the final product or or or the final configuration is gonna look like, right? And then you create the tools in place in order to do that, right? So if you try to make a change, the review could be.
+35:30 : Rich Pace : An automated review, potentially or it could be, another human looking at it. I think it all depends on.
+35:40 : Rich Pace : On the maturity of the tool itself.
+35:46 : Abdul Sabir : Okay.
+35:47 : Rich Pace : But that brings up a good point. So.
+35:51 : Rich Pace : I think everybody here, right, and and I'm I maybe guilting of projecting, but everybody here has their own way of looking at things.
+36:01 : Rich Pace : One thing that I, that, that I see within CX, within within our community, and I've been doing the same job for twenty six years is.
+36:11 : Rich Pace : We each develop our own tools. We find, you know, we find something that we feel could be easier if we develop our own tool and we do that. In my opinion, this is no different. Despite the monolithic approach that this has been shut down, to us to say this is the way, right?
+36:32 : Rich Pace : Right you know you have you must use a VS code, you must use GitHub, you must do this. Everything is text based and YAML and all of this stuff. That does not mean that as we go through this journey, we may not have ideas that we may wanna TURN into tools. One of my biggest complaints about this entire process is how CLI driven it is. And I'm like, this is, I don't wanna learn everything in.
+36:52 : Rich Pace : In the background when I can just, you know, why can't I just click a button and have it do everything for me? So instead of learning all the stuff in the background, I will rather build a tool which will force me to learn all this stuff in the background to make my job easier in the future. I think if such ideas come out of this program, then that would be great.
+37:13 : Rich Pace : I I, we don't wanna shut anybody down.
+37:21 : John Ryan : Hey, I don't know if you were on Rich to you or anybody else, I think a few of you were on the, the call that was at.
+37:29 : John Ryan : Eleven Eastern today? I'm sorry.
+37:34 : John Ryan : Yeah, tech talk services as code part two, listed by Scott McCormick.
+37:39 : Rich Pace : Yeah I know Scott, he's my American family insurance project. So.
+37:43 : John Ryan : So he hosted a call, I forget the gentleman who did the presentation, but it was a s code presentation, and it sounded like.
+37:52 : John Ryan : Say it again?
+37:53 : Anupam Dey : NAS Mulas, he's a principal from the, what do you call PMR, the PM CXPM, and.
+38:02 : John Ryan : And if, you know, if you were on the call.
+38:06 : John Ryan : Correct me if I'm wrong, but it sounded like they were trying to.
+38:10 : John Ryan : Either build or use or create a front end for the as code environment in some way.
+38:17 : Rich Pace : Good to hear, and.
+38:21 : John Ryan : Was that a yes? Yeah.
+38:23 : Anupam Dey : That they were talking about it, but I don't know how successful that will be. Because now you have to talk about front end from not just SD WAN ACI, SDA, direct to device. I'm like, you're talking of a supercontroller on top of all the controllers, right?
+38:42 : Anupam Dey : That that was the CSS engineering's project many years back to bring all the controllers under one framework. So.
+38:50 : John Ryan : Right, right. Single single single portal of glass sort of thing.
+38:55 : Rich Pace : Pane of glass.
+38:56 : John Ryan : Yeah, which is an interesting concept, right? I was when I was looking at it, when he was kind of, it wasn't something he was actually demoing, but it was more of a slide thought, it had like, ACIS code, VX or iOS XES code, SD WAN as code pain on the left hand.
+39:17 : John Ryan : And you could potentially filter the portal down to just those areas that you have that solution for, and then you would just be looking at some interface that would kind of manage your solution, right? It could be a vision that they're looking at. But I, the the point I wanted to make is they were talking about something similar that is going to be your big pain points.
+39:37 : John Ryan : Rich, is, you know, putting something in front of this CLI based activity that a little bit more friendly, and even integrating it with things like services and service now, right? If you need to make a change in your network, you can put a change in ServiceNow and have it execute through your, through your S code environment in some way. That's what they're thinking.
+39:59 : Rich Pace : And and we need such tools, but like that one especially when I hear things like single pane of glass, I it's.
+40:09 : Rich Pace : It's too simplistic, right? It's a, it's a very ambitious undertaken to bring everything together and there has to be things in place to, to, to help us do it. And I think that's what API calls are for. One of the things American family insurance is they had the same called API gateway that everybody, so instead of having instead of, all these diverse applications learning how to talk to.
+40:30 : Rich Pace : They just had to talk to one, one device and then that one device distributed the APIs appropriately, kind of like the United Nations of applications. But single pane of glass to me and I've been hearing it for fifteen years. It's just a very ambitious thing from a very high up person who like I want everything in one place. Well.
+40:50 : Rich Pace : Well, great, but we don't have that in place just yet. And it at the rate that we're going, we never will because everybody develops things in a silo, and then you have to make all of these things work together. I also, as an analogy, as like when I had a garage and I had a bunch of tools, I had pretty much a tool dedicated for a specific.
+41:11 : Rich Pace : I know I would I would assert that most of us in this call have turned around a wrench and use it as a hammer.
+41:19 : Rich Pace : But if you had a hammer, you would use a hammer, right.
+41:22 : Rich Pace : So single pane of glass to me is like, I I just want to Swiss army knife to be able to do everything. Well, great, but it doesn't work.
+41:31 : John Ryan : Yeah, that was a term that I used it. They didn't they didn't use it in their presentation, so.
+41:35 : Rich Pace : Oh no, but it but but it it is a term. It is one of those indicative terms that people throw around, right? You know, I want this. I'm like, ok, great. But do you really know what you're asking for?
+41:51 : Rich Pace : And that's the kind of.
+41:54 : Rich Pace : Environment that I think these sessions should be. It should be an open forum. It should be, yeah, there's gonna be a topic and there's gonna be demonstrations and there's gonna be, you know, look at this tool and how do we use this tool, and I'll be honest I don't know how to use all of the tools. I I I just got recently exposed to VS code and now I like it. Whereas first I was like, I don't know what this is.
+42:17 : Rich Pace : And it integrates with GitHub, I haven't had much experience with the any other tools Terraform or anything like that or Ansible or YAML and all that. I, I just, I don't, I don't have a need for it. And, and here's the thing that I have learned over the years, right?
+42:34 : Rich Pace : If there is a project in our mind, if there is a need that we need to meet, that we personally feel that we need to meet, we will learn whatever it takes to make sure that we meet do it. But if I come out and tell you, go learn Python, right? And you don't have a project or used for Python, you're not gonna learn anything.
+42:55 : Rich Pace : You're not driven to it, you know, so.
+42:59 : Rich Pace : What I like to do is educate and expose on the tools, on the method, and so hopefully that will trigger thoughts and ideas of how it could be used and that will help us get motivated to learning the tools because once we have a project in mind, once we have something that we wanna do.
+43:18 : Rich Pace : That will, that, that will create the motivation and enthusiasm. If you are, I'm not mechanically inclined, but I'm sure many people here like to work on their cars and they know exactly what they're going to do before they open the hood. Oh I need to do this, I want more power here. I want whatever, I want somebody should put a cigaret lighter again in the CAR, whatever it is.
+43:42 : Rich Pace : Your need is going to motivate you. So we need to, but without understanding the tools, we, we have no, no imagination of any need. So hopefully by exposing us ourselves to the tools and saying it can be used this way, it can be used that way. Perhaps you, you know, you come up with a brand new way of using the tool that.
+44:02 : Rich Pace : We had in considered that is actually can be pretty helpful.
+44:08 : Rich Pace : I don't want this to be just another series of trainings and check a box. I, I want this to be, hey, let's go, let's go find this out together. Let's go figure this out together. And see where we can do. I'm using it this way. I'm using it that way. VS code, i'll tell you right now, I have one of the things I had to do for the American family ins.
+44:28 : Rich Pace : Insurance is we did the we completed the STD and then at the very end, the customer said, can we get diagrams.
+44:37 : Rich Pace : I was like, ok, so I went to circuit. I just uploaded the SEDD and I said I want diagrams for all of this HTML diagrams fully linked, it gave him back to me, but there were errors in them and with VS code, I was able to easily go in there and fix all the errors on all these HTML files. That is just one example.
+44:58 : Rich Pace : Of, of its use. There are many different ones. Some people use them, you know, as terminals, they could do a lot of things. We'll get into we'll we'll we'll get into it and look at examples of what it can do. And then hopefully you'll find your own.
+45:20 : Rich Pace : Does that kind of generate any interest? Did I put everybody to sleep.
+45:28 : Rich Pace : Any thoughts, any questions, any concerns? Any roadblocks that we, we, we need to address.
+45:35 : Rich Pace : Any challenges that you've had in this journey?
+45:38 : Anupam Dey : So richard I have a suggestion here in our next meeting, right? Why don't we all as a team take our own laptop and follow the instructions and build the lab in our laptop? For those people who have not done it.
+45:55 : Anupam Dey : Google.
+45:56 : Anupam Dey : TURN the lab, you know, our laptop, right? The instructions for NAT as a code and while doing that, people can ask questions and we answer it the best we can. At least we have a goal if we do that activity, right? That everybody by the end of two calls will have.
+46:17 : Anupam Dey : Some set up in their laptop which they can use.
+46:23 : Anupam Dey : Yeah. Just a solution.
+46:25 : John Ryan : That in the first in the in the first or the next call, but we build to that right? Go over the tools that we have available, make sure that we have them all installed. And then get to a point where we all build the la.
+46:38 : Rich Pace : I like that idea. Well, I'm.
+46:40 : Anupam Dey : All together, that's all I'm suggesting.
+46:42 : John Ryan : Yeah yeah yeah yeah.
+46:43 : Rich Pace : Yeah, absolutely, animum. I think that's a great idea. I just don't wanna be too ambitious and like you know try to boil the ocean in day one, right? Because if we say we're gonna build a lab, what does that mean? You know, and and I don't wanna I also don't wanna provide a set of instructions that as soon as something doesn't work, people stop.
+47:03 : Rich Pace : I'm not saying that everybody would do that, but there's a subset of people that are like, ok, you know what, I I, I don't know where to, this doesn't work I don't know where to get help. Oh, well.
+47:13 : Phil Toy : And and you can count on having issues. I can tell you that, I mean, I I went through this setting it up on my laptop, you know, there's a, like a really well done guide for Mac laptops and even following that, I ran into several issues, so.
+47:34 : Phil Toy : You can count on that happening.
+47:38 : Rich Pace : Exactly.
+47:40 : Rich Pace : But, but I think Anilupam's idea is good, right? Because by the end of that, every one of them hopefully every one of us will have a lab that we all are all familiar with because we've gone through and understood the tools and we've set up the lab and then we have a lab, and then we can go in there and play on our own. And, and then hopefully we can share as i.
+48:01 : Rich Pace : You know some people might find something to play with really early on, some people may have to wait till some idea gets triggered before they do it. It, we don't want to force inspiration. It'll come when it comes, right? Everybody has a different set of problems that they they're trying to address and we're just gonna try to find solutions as they.
+48:26 : John Ryan : Cool, thanks for answering the OBS code question. I had I had installed it. If you have installed it, you know, just click yes I wanna get an idea of how many people have it, We're half half.
+48:37 : Rich Pace : Is that what this says? Oh.
+48:40 : John Ryan : Yeah, yeah, yeah. So.
+48:41 : Rich Pace : No, is that ok? Oh, that's why I was covering that. Okay.
+48:46 : John Ryan : Yeah, yeah, more than half the people haven't haven't installed it's not that big a deal to install. You can just download it and install it.
+48:54 : Rich Pace : Yeah, it, but by itself from my experience by itself VS code, it doesn't really do anything, right? But, and I don't wanna get into too many details, but by itself it doesn't do anything pretty much you select a directory and you can see all the files within that directory. So it just looks like another directory.
+49:15 : Rich Pace : However, the tools that you installed, the add ins in the extensions that you install, like for example.
+49:24 : Rich Pace : You might install an HTML viewer so then you click on a file and the HTML pops up on the window next to it. Or things like, you know, so my personal, some of my personal projects, like if you're writing HTML code, one thing that you can do with VS code is have it enabled a.
+49:44 : Rich Pace : Pretty much a web server on your local host that you can use a browser if you see exactly what it looks like.
+49:53 : Rich Pace : It all depends on the use for it. There are many many tools.
+50:00 : Rich Pace : Right now just installing it is good enough and if you wanna peruse and look around, that's great. But then we'll start going into, you know, the.
+50:10 : Rich Pace : Here's this tool, right? You're gonna need this tool. This is what that tool does, right? And let's just learn these tools one by one until we become comfortable with them. So we can put all of this together. We wanna be able to be comfortable when a project comes down the line.
+50:26 : Rich Pace : For a customer comes down the line.
+50:30 : Rich Pace : Am I talking too much?
+50:32 : John Ryan : How how about on the next call we can kind of go over VS code I think that was what you were intending anyway. I'm sure people on this call have used it.
+50:40 : John Ryan : In some way. Maybe not everybody, but, you know, eleven of the thirteen people have installed it, so I assume a good portion of the people that installed it have used it in some way, right? So maybe we talked about that in the next one.
+50:54 : Rich Pace : I think so. What cadence do we want for these calls? I am going on vacation.
+51:01 : Rich Pace : In three weeks.
+51:03 : John Ryan : Wanna, this time works for me.
+51:06 : Rich Pace : Okay, the time works for me too, but I every two weeks, three weeks, four weeks, not six months.
+51:14 : Phil Toy : I mean.
+51:16 : Phil Toy : I'm kind of in a hurry to get, get this information, so I would be, you know, I could do this twice a week.
+51:26 : Rich Pace : I can't.
+51:28 : Rich Pace : Maria. Yeah.
+51:32 : Phil Toy : I don't, I would like to do it, you know, as often as possible, let's put it that way. So when you say three or four weeks, that's.
+51:39 : Rich Pace : No, not three or four weeks I was thinking biweekly.
+51:46 : Rich Pace : And I was thinking biweekly because sometimes you know customer stuff gets in the way and I can't pay, you know, I wanna make sure that.
+51:54 : Rich Pace : We have something every time we meet right we have something to look at. So I have to it's not just getting on here and talking to I have to have a plan of what I'm gonna say.
+52:06 : Rich Pace : So that takes time to develop. Sometimes it's just percolating and thinking about it, but sometimes I have to like prepare Slido two.
+52:14 : Rich Pace : So minimum every two weeks?
+52:25 : Rich Pace : Well.
+52:28 : Rich Pace : That's that that's all I had. I just wanted to kick the series off and explain a little bit of the background and as well as what my vision is. It doesn't mean that my vision is the only vision we are a team here.
+52:43 : Rich Pace : I could be nudged as well.
+52:47 : Rich Pace : And, and hopefully, you know, something good comes out of this.
+52:53 : Rich Pace : And John can stop dressing me down, but.
+52:57 : John Ryan : Yeah, I appreciate the effort here, Richard I think it's gonna be helpful for a lot of people. I I don't wanna anybody to to rail the progress that you're making on your own, and I would expect that you would bring that progress and knowledge and experience to the calls that we do have in the future. So that everybody can kind of, get to the same level.
+53:16 : John Ryan : Level.
+53:18 : John Ryan : And we can learn from each other's experiences. So thanks all. Any final thoughts or questions?
+53:30 : Rob Fegley Desk : Thanks for doing this. Yeah.
+53:34 : Anupam Dey : Factor.
+53:35 : Rich Pace : This team.
+53:37 : John Ryan : Thanks all. Have a good one.
+

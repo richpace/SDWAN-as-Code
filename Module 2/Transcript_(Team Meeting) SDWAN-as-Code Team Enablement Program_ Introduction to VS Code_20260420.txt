@@ -1,0 +1,377 @@
+1:54 : Rich Pace : What is happening? I saw your call last message that you deleted or something almost like there's some conversation.
+2:09 : Rich Pace : What's happening, what's going on?
+3:54 : Rich Pace : Hey there.
+3:57 : Derek Chu : Eric, good afternoon.
+3:59 : Rich Pace : Good Afternoon. Yeah.
+4:01 : Derek Chu : Hey, I have a conflict with the customer call like a second half, so I just wanna let you know last week well, you know, first seven I have a conflict, so I didn't get a chance to attend, but thanks for, you know, hosting this call. It's really helpful.
+4:17 : Rich Pace : AH, well, thank you. I understand that you're way ahead of me anyway, so we'll probably talk this week and things John wanted me to reach out or vice versa.
+4:26 : Derek Chu : Yeah, ok. Sure. Thanks.
+4:29 : Rich Pace : Hey Artem, how you doing Bunn?
+4:32 : Artem Surjko : Which how you Hide, and.
+4:36 : Derek Chu : Good afternoon.
+4:38 : Artem Surjko : In the afternoon as well. Guys happy Monday.
+4:45 : Derek Chu : Mppy Manda. Hello Sean, sean.
+4:50 : Shawn Leonard : Good afternoon.
+5:12 : Rich Pace : MASS.
+5:16 : John Ryan : I know.
+5:17 : Rich Pace : Give us.
+5:19 : John Ryan : Yeah.
+5:24 : John Ryan : Sounds like a Monday response. Yeah.
+6:14 : Rich Pace : If I don't.
+6:17 : Phil Toy : Edge hi, everyone.
+6:31 : Jim Phillipo : Good afternoon. How you doing Phil?
+6:35 : Phil Toy : Yeah, good area.
+6:42 : Rich Pace : This is big moose on their screen.
+6:53 : John Ryan : Also see you got a couple of unread Webex messages.
+6:58 : Rich Pace : Has all those, yeah, yeah, I do. I'm on top of **** I mean I'm on top of things.
+7:26 : Rich Pace : It's hard to understand to know where you're gonna be communicated through anymore because it used to be emailed and it's Webex, then it's whatever.
+7:34 : John Ryan : It's terrible.
+7:53 : Rich Pace : And wait till four or five.
+8:11 : Rich Pace : They have a branch hanging out of his mouth?
+8:15 : John Ryan : Oh, yeah.
+8:19 : John Ryan : Looks that way.
+8:59 : Rich Pace : I don't know five.
+9:01 : Rich Pace : So I don't know how many of you, had a chance to look at the, the, the paper that I attached to the invitation. I was thinking that perhaps attaching to the invitation was not the thing to do, it's not necessary to have read it, it's just provides a little bit of background information on VS code. Did anybody did read it.
+9:25 : Rich Pace : Yeah.
+9:27 : Phil Toy : I had Siri read it to me.
+9:29 : Rich Pace : Okay.
+9:31 : Phil Toy : It's.
+9:34 : Rich Pace : Good, good, great use.
+9:40 : Rich Pace : Today we're just gonna introduce VS code. I'm sure several of you have already downloaded and played with it. I'm just trying to bring everybody up to speed up to like the.
+9:52 : Rich Pace : A higher minimum level without putting anybody on the Spark where they're at. So.
+10:00 : Rich Pace : I wanna do is I'll just bring up brand new window visual studio code. I created a profile.
+10:12 : Rich Pace : Alright, come on.
+10:22 : Rich Pace : I hopefully I created this MPP profile. So you open it up, so, the.
+10:29 : Rich Pace : VIS code is not just the text editor, it is a workspace. So yeah, you can open a file and look at a single file, but the file, the power comes in when you open a folder.
+10:41 : Rich Pace : And so here.
+10:56 : Rich Pace : So you you open a folder, you see everything up here. You can do several things. Oh, so this is the folder. You can From right here, you don't have to go anywhere else, from right here, you can create a new file, you create new folders, and this IDE, the VS code pretty much has access to all of it, right? There's I I will admit.
+11:15 : Rich Pace : There's a lot of things about VS code that I don't fully understand yet, have you had a need to use them yet. But it's kind of neat. I I could just click here.
+11:27 : Rich Pace : And look at, at all of these files. Now, these are pretty small files on purpose. I didn't wanna overwhelm things here. So let's say I have these two router iOS devices. I can.
+11:50 : Rich Pace : And I wanna look at them side by side. So you can do all of this by looking at it side by side, and, and do that. So you can open as many different windows as you like.
+12:04 : Rich Pace : And look at any information just by clicking on this. So you can put a lot of related information all on the same screen so you don't have to be tagging back and forth. That's something that's pretty powerful. I didn't really fully understand that at first and then I was like, AH, really? That's it. Is this.
+12:23 : Rich Pace : I can't see where the buttons are here. Okay, but I know I can do it this way.
+12:28 : Rich Pace : Is this terminal right here? All this terminal is it opens up in this folder, it opens up a console prompt just as if you were like if you open up a, a console prompt on, on your, on your laptop, that's all it is. But what it allows you to do is to keep everything.
+12:47 : Rich Pace : All on the same screen without, you know, it's not going back and forth. So from here you could SSH into a router and run commands, you could do any kind of file manipulation from here, and compare it with whatever you have up here on the screen. So this is just basic VS code.
+13:06 : Rich Pace : Well, the speech of that I'm going, I'm gonna be done really quickly.
+13:12 : Rich Pace : This is just, ok, so this is just basic VS code and like, ok. So just by itself, it has a little bit of functionality and value, but the power of VS code really comes in from the extensions. And, and for the extensions, so this CSV is called oble CSV. You look at it.
+13:32 : Rich Pace : It looks pretty.
+13:36 : Rich Pace : Jumbled code. You kind of need to know what you're looking at, but let me close one of these.
+13:49 : Rich Pace : Let's say you you know you get a file, you don't know what it is you don't know what type it is or whatever, but you see you know it's a CSV. You see here that I have zero installed extensions. I just come up here. I say I don't know what I'm doing, so I'm just gonna type in CSV, and all of these extensions pop up. It act.
+14:08 : Rich Pace : It goes out to whatever library it reads and all of these extensions have some kind of CSV, keyword that, that it picked up. You can look at the number of downloads that people that have downloaded or actively using it, you know, three hundred and fifty thousand to twenty million, two point five million on that. I'm gonna look.
+14:29 : Rich Pace : That's.
+14:32 : Rich Pace : Twenty million it seems popular.
+14:40 : Rich Pace : This Isolin.
+14:49 : Rich Pace : Okay, it installed. So now I go back over here.
+14:56 : Rich Pace : And, and now you can see how they color coded every column.
+15:01 : Rich Pace : I don't know that much about, I I have never used that extension. Let me see what it said. I don't know what else you can do, but.
+15:18 : Rich Pace : Right, you know, you go to extensions, you click on it, you have all the documentation for that one tool right here.
+15:29 : Rich Pace : But this is just an example of.
+15:33 : Rich Pace : An extension and I and I used it to make viewing a CSV file easier. I understand I've never used it. I understand there's one that might do it for let's see if we can do that for iOS.
+15:48 : Rich Pace : Yeah, iOS.
+16:06 : Rich Pace : Okay.
+16:10 : Rich Pace : Oh, look at that.
+16:14 : Rich Pace : And these extensions are they developed by people who had a need and they wanted a tool and nobody had it. So.
+16:23 : Rich Pace : Game of platform to develop it. Any questions? What's.
+16:27 : John Ryan : To the extension's doing for other than changing the color of different.
+16:30 : Rich Pace : Yes.
+16:33 : Rich Pace : It well, at a very basic level, right? Before these these were all just all white text.
+16:38 : John Ryan : Yeah, yeah, yeah.
+16:39 : Rich Pace : Text. So obviously you know, obviously CSV detects a file name that has an extension to CSV, and then every, every.
+16:48 : Rich Pace : CSV, every comment separated value gets a different color, so every column gets a different color, so it makes it easier for you to load to to what you're doing here. I've never used a CSV rainbow CSV before. I've never used either one of these extensions actually. Here that, that, that second one that I downloaded, which one was it? Cisco iOS syntax.
+17:09 : Rich Pace : It, it color codes certain aspects of it. I don't know how configurable it is, but just by itself, just the default values looks pretty.
+17:20 : Rich Pace : You know easier to read, easier to see things.
+17:25 : Phil Toy : A lot of extensions, right? That, that make things look better, but you know, these extensions can add and other functionality as well. Like.
+17:38 : Phil Toy : You know, things that can format text for markdown or Python or, you know, what whatever. There's like style guides for Python, so if you write, you know, bad code, like it can kind of pretty that up.
+17:56 : Rich Pace : I know, I I I've been using it for the VS code for some personal projects and with HTML, a CSS and and in JavaScript, and it finds, it finds any error. It it'll highlight the error. We're not doing that right here, but.
+18:17 : Rich Pace : Like right over like right over here, right? It'll be.
+18:23 : Rich Pace : This is just.
+18:25 : Rich Pace : View of this entire file all at once. So over here, down the down this bar, it'll just put like red lines where there's an error.
+18:35 : Rich Pace : A syntax error before you push that anywhere. So, up here under the files, right? If I make a change to a file, so let me say, we'll change this to.
+18:50 : Rich Pace : Right here this is one, is it one file has one, is, has a change that has not been saved.
+18:59 : Anupam Dey : Sorry which for joining late. If we change let's say the IP address from one ninety two to let's say three hundred, it will throw error, right?
+19:09 : Rich Pace : I, it'.
+19:10 : Anupam Dey : They just do this, yeah, just do three hundred. I think it should throw error.
+19:14 : Rich Pace : This one.
+19:16 : Anupam Dey : On this one, ok, alright.
+19:19 : Phil Toy : No, that.
+19:19 : Rich Pace : That that would be a good tool.
+19:21 : Phil Toy : They're likely is one that will do that.
+19:23 : Anupam Dey : Here this one I believe.
+19:25 : Abdul Sabir : Yeah.
+19:25 : Rich Pace : I I didn't know which one to download I just downloaded the first one that came up.
+19:30 : Anupam Dey : I think we have to import a module or something. I'll have to, I'll check that out and get back to you.
+19:36 : Rich Pace : And.
+19:37 : Phil Toy : For the SD WAN or any *** code really, right? When we're dealing with YAML files, there's a YAML extension that is gonna be really helpful cause it'll enforce like the proper end ending and and that sort of thing.
+19:54 : John Ryan : Segue so with the the purpose of the the VS code here would be to.
+20:00 : John Ryan : View and maybe manipulate YAML files. Is that kind of.
+20:05 : Abdul Sabir : That's why you add your YAML extension here as well. That's correct.
+20:13 : John Ryan : Cool.
+20:14 : Abdul Sabir : Richard, if you haven't done it, you can go ahead and add your Yamo extension.
+20:18 : Rich Pace : No, I thought it. It's not just that on this profile. I I wanted this profile to start.
+20:25 : Rich Pace : I'm not demoing yamo. I'm not demoing as code, I'm demoing VS code.
+20:32 : Rich Pace : Okay, let me see. I downloaded another one, another extension.
+20:41 : Rich Pace : There you go.
+20:49 : Rich Pace : Let me just see if this is gonna do twenty. Okay, so if it's wrong.
+20:57 : Abdul Sabir : I'm, yes.
+21:00 : Rich Pace : So there's another I downloaded another extension that actually will highlight something that is incorrect with a different color. The Cisco config highlight. Okay.
+21:13 : Rich Pace : Another thing that.
+21:17 : Rich Pace : It's pretty neat. It just comes with VS code is I can go back up here, and I wanna do.
+21:33 : Rich Pace : It gives you a diff, right? So here it says plus, you know, this change, this changed.
+21:42 : Rich Pace : Changed, right? So, just it's a really neat tool, it's very basic at the beginning, there's nothing there with without any extensions, it still has some use. But then the power comes from putting all the extension in here. And.
+21:58 : Rich Pace : What what I want to avoid is saying, download this extension, download that extension, just, you know, give you a list of extensions to download without any more context in that, right? Yes, this is gonna be an invaluable tool for any kind of asked code work that we do.
+22:18 : Rich Pace : But I feel that it is also a very good tool for just about anything else that you do, right? Because it's the environment.
+22:28 : Rich Pace : Environment can get pretty complicated, you can have all kinds of.
+22:33 : Rich Pace : Files, development files.
+22:36 : Rich Pace : I know that this is a connection to git. This is a search like search and replace. This running debug I've never had it work. I've never needed it to work because everything that I've done hasn't been locally. But if anybody has, I, I assume that from a I do a lot.
+22:56 : Rich Pace : Coding with on C sharp and visual studio. And I understand that functionality, I just never needed to do it here in VS code. But I assume it just kind of steps and looks you know goes through code step by step, and you can put break points. I didn't see that. If that is something that you ever need to do.
+23:18 : Rich Pace : In my opinion, just about anything if you wanna do HTML, you can do it here. If you want to do scripting, if you wanna do programming, if you wanna do just text editing, you can do things here, and by putting everything on the screen at the same time, right? Instead of layering windows where if you click on the window, it partially hides another window vice vers.
+23:37 : Rich Pace : And all of these different things, all the information that you want to put on the screen will be in the screen that same time, so you don't have to like go back and forth and try to remember things. You can just scan the screen.
+23:51 : Rich Pace : Makes sense so far? Any questions? Any ideas?
+23:58 : Rich Pace : The extensions that you end up downloading, in my opinion, are going to be the ones that you find a need for yourself, and that's what I'm trying to get to when I talk about, so far everything with S code has been download this, you need to download this, you need to download A B C Z, whatever, you need to download all these things.
+24:18 : Rich Pace : And then learn as you go. Great, you know that you're gonna need them, and, and ideally, right, when we get to them, we're gonna go through all the tools, all the extensions necessary for S code. I'm not ready to do that today. I didn't realize it was gonna go this quickly.
+24:39 : Rich Pace : Well.
+24:40 : John Ryan : Is there a, is there, is there a, not a competing but an alternate alternative.
+24:46 : Rich Pace : ID.
+24:48 : John Ryan : Yes, that would be.
+24:50 : John Ryan : The s code, can somebody else use something else to kind of do the same things we're doing here?
+24:55 : Rich Pace : To see whether it wouldn't. There there couldn't be. I just don't know of one.
+24:59 : Phil Toy : There are, there are, but I mean my advice unless you know what you're doing.
+25:07 : Phil Toy : You probably if you know what you're doing, you probably already found one, and if you don't know what you're doing, I would suggest sticking with VS code because it is probably the most popular and it's certainly widely used within Cisco, you're gonna find, you know, more help learning how to do something in VS code than, you know.
+25:28 : Phil Toy : Another competing ID.
+25:31 : John Ryan : So it's kind of like the unwritten sort of standard that everybody's settling on, I guess, here.
+25:37 : Rich Pace : Well standard I mean guideline anyway, right? Because if you're comfortable using any other IDE, I recommend you use that IDE. I just don't know the capabilities of other IDEs or any other IDE because once I found this one and got started getting used to it and comfortable with it, I really like it.
+25:58 : Anupam Dey : I did try, there are something called earlier pie charm and I think also Jetbrain for some time. They're all, I don't think any of them is free from a point of view of licensing. They were pretty decent too. Not as good as weird visual code. And right now if I'm not us.
+26:18 : Anupam Dey : Visual code, I use sub line that is free for Mac, so I use that for.
+26:24 : Anupam Dey : General stuff here and there. But yeah, if you have license for pie charm or jetbrain, you can do that, use that also if you need to. Otherwise we, there's no replacement for visual code. I like that one, but the other options as well.
+26:40 : John Ryan : You're saying visual code, is that what VS code is visual code or is that something.
+26:44 : Anupam Dey : Yeah, VS code, yeah. VS called visual studio code. That's the full form of it, so.
+26:49 : John Ryan : Okay, doesn't take much to confuse me Anupam, so.
+26:54 : Anupam Dey : I was confused.
+26:56 : Rich Pace : Not slower the.
+27:00 : Phil Toy : He will just be confused at a slower page.
+27:04 : John Ryan : HMD.
+27:07 : Rich Pace : Take longer to get confused.
+27:08 : John Ryan : All righty. This needs to stop now.
+27:13 : Rich Pace : Oh.
+27:15 : Rich Pace : I had a thought and it kind of went away.
+27:24 : Rich Pace : I know there's ML, there's HTML, there's PDF viewers cause I've been starting to use that.
+27:32 : Rich Pace : The markdown.
+27:35 : Rich Pace : The number of extensions that, that VS code has is just crazy, right? So, I would venture to say that if you have any, any project, right? Any project that you're doing regardless of whether it's as code or not, right? You you tend to throw things into a folder. I hopefully you do, I don't know.
+27:55 : Rich Pace : You, you know, I don't wanna push anybody to how they work.
+28:00 : Rich Pace : Might as well manage all those files with VS code. And then if it's a PDF file, if it's a word file, I think there's a word, I think I found a word.
+28:10 : Rich Pace : Viewer as well.
+28:19 : Rich Pace : Maybe not.
+28:22 : Rich Pace : It's my it's in my other profile?
+28:28 : Phil Toy : Oh.
+28:29 : Rich Pace : Get to it because it's covering it. Okay.
+28:33 : Rich Pace : I would just recommend I I think there's two tools that we have.
+28:39 : Rich Pace : In our arsenal.
+28:42 : Rich Pace : That are, I would start any, any project I would start with, I would start managing any project with VS code just just from a folder space standpoint, just to manage all the files that you have, you can do versioning, you can do all kinds of things, and we can get to that. Or we'll get to that when we talk about GitHub and the next, the next session.
+29:04 : Rich Pace : And circuit.
+29:07 : Rich Pace : Right, I I don't care what project you have, what question you have, in my opinion, go to circuit. Take it the circuit and ask it there. I would recommend that when you open up circuit that you change the tool from default to.
+29:24 : Rich Pace : It depends on what you're doing. Cloud Sonnet or cloud Opus in my opinion or or whatever you're comfortable with. But, but I have found that for documentation cloud Opus, does anybody know what I'm talking about the, the circuit tools.
+29:40 : John Ryan : India, I would hope so.
+29:43 : Rich Pace : Okay, for documentation cloud Opus is amazing, right? But.
+29:51 : Rich Pace : Even if it's just.
+29:53 : Rich Pace : We're trying to figure out what's next, right? Even figuring out what's next with VS code or how do you learn how to use VS code or have you have a question about an extension, you know, take it to circuit, right? Oh, but when I say.
+30:07 : Rich Pace : As an example, I.
+30:11 : Rich Pace : If I'm giving a task, if i'm giving a task and I don't fully understand what that task is, I'll just take it to the circuit and say like, you know, John asked me to do this. What does he talking about? This is all the information and context that he gave me and it'll align everything.
+30:27 : Rich Pace : In a way that hopefully you can understand, and then from there it'll give you ideas and you'll know what to do next and you'll just go off, right? And it'll do a lot of the work for you. As an example, I, I I I had developed an SRD with the help of circuit for American family Insurance and then I.
+30:47 : Rich Pace : When the SRD was complete and I had to start the SDD.
+30:52 : Rich Pace : I was like, ok, well, I I, you know, I wanna have this traceability of all the requirements that I had on the SRD and I want them to make sure that they were documented in the in the STD. I just told circuit to give me a document template that I was gonna share with my colleagues so they can fill in their individual sections. And it wrote two hundred pages for me.
+31:14 : Rich Pace : I had to go in there and I had to do a lot of reviewing, but it's a lot easier to review two hundred pages than it is to create two hundred pages. So I think, you know, between circuit and the s code, we have two really good tools that can help us enable.
+31:33 : Rich Pace : Help us do our jobs enable us to do our jobs.
+31:38 : Phil Toy : So Rich, one of the things that I use with, you know, personal projects is I have cloud code integrated with VS code, and it's I think a an extension.
+31:52 : Rich Pace : I've using it, it's amazing.
+31:54 : Phil Toy : I'm wondering, does anyone know, do we have the ability to integrate circuit into VS code? And that would be very helpful.
+32:04 : Phil Toy : I.
+32:05 : Anupam Dey : No, I haven't, I don't think we have that ability right now.
+32:11 : Anupam Dey : And I understand SecureX Circuit is not.
+32:17 : Anupam Dey : What do you call, like cloud or card gbpt, right? It's not LLM based structure. So it is just a front end that marries into other llms, right?
+32:29 : Rich Pace : That looks like a broker.
+32:31 : Anupam Dey : Yeah. So.
+32:33 : Abdul Sabir : That'd be like a MCP.
+32:36 : Anupam Dey : Oh M CPP MCP is basically a translator that connects the different elements to the APIs of the different components.
+32:47 : Abdul Sabir : Okay.
+32:49 : Anupam Dey : Circuit is just a broker. You just put a question in circuit and it will reach out to the LDMC don't choose the right LDM to question to get your answers. But.
+33:00 : Phil Toy : See if I'm wrong, but doesn't it, I mean, so when we select, you know, Cloud in circuit, do we not have the ability to put, Cisco data in there? I mean.
+33:13 : Anupam Dey : You have, you have you can you can.
+33:16 : Phil Toy : I think it's separate from like the public cloud version, right? Yeah.
+33:25 : Anupam Dey : Yeah, no, I was going to the point of the if the circuit to might circuit will need an extension basically to come to VS code.
+33:35 : Anupam Dey : Just to answer this, you should, we should have an extension of circuit.
+33:41 : Phil Toy : It would be helpful.
+33:42 : Rich Pace : It could be. I know, cloud code is I I started using it. I talked about it with Phil and I started using it and it's amazing I used it I use it side by side with Claude. I talked to Claude about ideas because claude code has limitations with it, but I talked to Claude about ideas, right? And then I thought I told claude.
+34:03 : Rich Pace : That I was using Claud code with VS code. And so now instead of Claude doing all that work, it just tells me what instructions to paste into cloud code and cloud code can manipulate your, the files in your folder space and save them at the same time. So it does all of that work for me. So I it eliminated a lot of copy pasting.
+34:24 : Rich Pace : But it's.
+34:27 : Rich Pace : Yeah I'm kind of a middle man in all of that, but it's doing my work for me. So.
+34:33 : Phil Toy : If there's a planning mode with cloud code that should work very similarly to, you know, cloud, like the web version, I haven't used it a whole lot, but, I think, like I said, there's a planning mode that access. I.
+34:53 : Rich Pace : I've only just started exploring. I think it's very powerful. I know, one of the things I did is I go through every file in this folder and find every reference to whatever. And it did. And it gives you a summary and you can download the summary and it or it'll add it to the file. It's.
+35:12 : Rich Pace : It's just that between VS code and whatever AAA tools that we use, right?
+35:21 : Rich Pace : There's, we have a lot.
+35:23 : Rich Pace : We we have access to a lot. We have been empowered to do a lot. There should be, in my opinion, thank you, thank you Derek, in my opinion, there's.
+35:37 : Rich Pace : Nothing that we can't address.
+35:40 : Rich Pace : There's no customer requirement that we can't address. I have no idea and I as I apologize I kind of got away from the the topic into other things, but I think there could be helpful. There, there's no request that we can at least have some data that we can provide the customer.
+36:01 : Rich Pace : It used to be is like, you know, what seemed like a small request required hours and hours of research and putting things together and doc, you know, put packaging it correctly.
+36:13 : Rich Pace : These tools do it all for us.
+36:18 : Phil Toy : So Rich.
+36:21 : Phil Toy : I wasn't familiar with profiles in VS code, and I mean I, I could probably guess it what they do, but can you give a, maybe a use case for, for user.
+36:34 : Rich Pace : The problem is is that when I can get to it right here. Okay.
+36:42 : Rich Pace : So what the profile, so this profile, so my default profile has.
+36:53 : Rich Pace : All of these extensions installed.
+36:57 : Rich Pace : So cloud code, GitHub, and all that. And actually they will synchronize between if you log in, I forget what you logged into, but it'll synchronize between like if you're working on another PC, it'll synchronize, so if you install an extension on one, it'll put it on the other PC as well.
+37:15 : Phil Toy : To enable that, it doesn't do it by default, but yeah. That is helpful.
+37:19 : Rich Pace : But, you know, Python lua, JSON, you know, Terraform, XML, YAML, right? All this stuff is in here, right? So, the way, the way I would use a profiles is, well, if you have a very dedicated environment or you don't want two, two extensions.
+37:40 : Rich Pace : That might conflict with each other, is you can create a profile and assign it to a folder space cause I did that here.
+37:52 : Rich Pace : Right, so enablement, I think I use.
+37:57 : Rich Pace : No, I thought I had I had used it for a space, but you can add the folder that you're gonna use this profile for.
+38:03 : John Ryan : That the this profile will only use files in that folder.
+38:08 : Rich Pace : Yes, and and only the extensions that you loaded for this profile. So.
+38:20 : Rich Pace : That's the manager, so.
+38:23 : Phil Toy : So if I, if I understood you correctly, I mean the gist is if you have an extension that.
+38:30 : Phil Toy : Would overlap with another extension.
+38:34 : Phil Toy : That's why you're creating another profile.
+38:37 : Rich Pace : Would be one use case there might be other use cases that I just haven't thought about yet. But.
+38:43 : Rich Pace : So, so when I was developing the material for, for this session, right, I was like, I thought it would be valuable to show what M what an MTVS code looks like and how it's still useful by itself. And then show how to add it, you know, the, the need for.
+39:02 : Rich Pace : An extension and then how to get it and then what it did. Because I thought that would be pretty powerful, right? And I was like, yeah, but I don't wanna I don't wanna I don't wanna delete all the extensions that I have off my.
+39:14 : Rich Pace : Off my visual studio code, right? So I asked circuit it's like, yeah, what can I do it's like, have you tried profile? He didn't say like that, but I I knew what it said, right? Have you tried profiles? And I was like, what is that? And it showed me what it was. I was like, yeah, that's perfect.
+39:36 : John Ryan : On like two, three different customer projects, you wouldn't create a profile for each one, would you?
+39:43 : Rich Pace : I I would say that is an individual as far as profiles, that would be an individual preference. If they're similar if there are a similar projects, probably, probably not because I would be using the same extensions. Yeah. You could also just, just overload all the extensions. The only thing that I would do for three different projects is three different.
+40:03 : Rich Pace : Folders.
+40:06 : John Ryan : So profiles are more like the tools in the toolbox that you use, right.
+40:11 : Rich Pace : Yes.
+40:17 : Rich Pace : That's a great analogy. So if you looked at it from a contractor perspective, you have a job, the folder is the job, and then the pro, the profiles is your, your toolbox. The tool set for each job.
+40:34 : Rich Pace : Yeah, you have some tools that, you know, some jobs that all require the same tools and maybe you have some that.
+40:43 : Rich Pace : For whatever reason it warrants a new profile.
+40:48 : John Ryan : Makes sense. To me.
+40:50 : Rich Pace : Lot of stuff here that I.
+40:53 : Rich Pace : I haven't explored yet because.
+40:57 : Rich Pace : I find that the best teacher is need necessity is the best teacher, right? And all of a sudden I'll have something that I need and that that's when you start researching and trying to learn things. One thing that I thought was really cool I don't know if I had it here, right?
+41:18 : Rich Pace : Life server, is it, is it an extension?
+41:24 : Rich Pace : So this extension right here live server, 70 seven million dollars. If you are working with HTML or developing a website or whatever, right? And you don't need, you don't have a place to push it to live server will You just.
+41:42 : Rich Pace : Right click enable it, and it'll make it'll TURN your PC into a web server that you can look at the file being rendered on local host with a, with a, with a browser.
+41:55 : Rich Pace : The imagination that these extension developers have is amazing. And this to me, this is an example of a.
+42:05 : Rich Pace : Of of the power of the diversity, right? Everybody has a different need, but they all came to, you know, they it's not that they even came together to by developing tools and putting them all in the same place, they developed a very powerful tool. Metatool, a tool of tools.
+42:23 : John Ryan : Extensions free.
+42:27 : Phil Toy : Not.
+42:27 : Rich Pace : I I haven't come across I haven't come across any of that worked except Claude Claude code. Loud and and Topic has a subscription model that is really annoying but I am, and this is my personal opinion, Claude and anthropic is hands down one of the best. I think you also.
+42:48 : Rich Pace : Gemini sometimes in.
+42:51 : Rich Pace : With circuit GBPT is just.
+42:57 : Rich Pace : Crazy it's like it's got a citizenship or something, I don't know. It just those things halfway.
+43:03 : Phil Toy : AH.
+43:08 : Rich Pace : To be really good. Now I don't know what it's doing.
+43:11 : Phil Toy : You got used to call it.
+43:16 : Rich Pace : Perhaps, and.
+43:18 : John Ryan : Are there any Cisco restrictions on using any of these extensions that are free or what are what's the governance here? Like.
+43:28 : Rich Pace : You know what we're allowed to do that? No, I don't see. So all this, all the data stays local, you know.
+43:37 : Phil Toy : They're likely as a restriction with Clode in VS code, right? Cause I mean.
+43:44 : Phil Toy : You're essentially using.
+43:47 : Phil Toy : The public as.
+43:48 : Rich Pace : That one, so.
+43:50 : Phil Toy : So you wouldn't wanna put so that's why I was asking about, you know, can we somehow integrate circuit with VS code because, you know, you're With the as code environment, you're gonna be editing YAML files that pertain to the customer's networks, right?
+44:08 : Rich Pace : At that's a good point. So far what I and you have more experience with cloud code than I do. So I I'll defer to, to your experience, but what I've seen so far is.
+44:19 : Rich Pace : It tends to stay local clot code with VS code stends to stay local. I just, I haven't used it for anything else other than look at the files that I have on the on within the folder space. I don't know if it could do what, you know, what Cloud does outside of that, you know, when I use a browser.
+44:38 : Rich Pace : And it does whatever search is it, whatever it does, I haven't used it that way so I don't know.
+44:45 : Rich Pace : The problem. If.
+44:46 : Phil Toy : Not say local. I mean it looks like it's local, but it's not. It's. Okay. You're, you're running, if you run quad code and in a terminal window, it's just, you're using the terminal to access the public cloud instance.
+45:02 : Rich Pace : And what I would say John it is the same rules as.
+45:06 : Rich Pace : Any use of AI within Cisco, which is they need to understand that cloud code for VS code, is just another, you know, we can't use it for customer data.
+45:16 : Rich Pace : So it it's a tough one, isn't it?
+45:20 : Phil Toy : Yeah, this is where we we really do. It would be very beneficial to have integration, you know, with circuit because, you know, long story short, like the way I see this.
+45:34 : Phil Toy : In the future is, you know, because we're editing YAML files and AI can easily read, you know, files and understand them, I mean, we'll be able, ideally we'll be able to point AI at the YAML files for, as code and say, hey.
+45:54 : Phil Toy : I wanna add this new feature on these particular routers and it can build the files for us. Of course, we can't do that with the public versions of the, you know, these llmiss, but once we have, well, we, you know, we can use circuit to do that, but ideally, if we have circuit.
+46:15 : Phil Toy : Integrated with VS code, we're not being the middleman to copy files between, you know, our local computer and, and.
+46:25 : Rich Pace : I can only I I don't think it's that big of a stretch to ask for whoever developed circuit, right? Because I'm imagining, right, from a computer science standpoint, right? You have a broker that is attaching itself to all these llmiss and it has some kind of guardrails to ensure that some certain track.
+46:46 : Rich Pace : Data stays local to Cisco, and that's why we can use it up to the Cisco highly confidential.
+46:53 : Phil Toy : Yeah. I.
+46:54 : Rich Pace : But, and then you have a front end to that. So.
+46:59 : Rich Pace : Ideally, whoever developed circuit should be able to develop, right, a an extension that allows us to use exactly the same guardrails so we can do that. Because I think you just touched on a very real issue.
+47:16 : Rich Pace : Right because cloud code is a game changer, right? It it'll, you can load all these files, you don't need to understand what's going on in there, you're like, oh, I need to make this change or they added this, you know, you don't, it knows it'll look all the file look through all the files and find where it should go and put it in there, provided you give it the proper instructions.
+47:36 : John Ryan : Yeah, it's important for us to be aware of that because, you know, there were rules and no governance, no, nothing's gonna stop us, you know, outside of circuit, there's nothing preventing you from putting things out there that shouldn't be put out there.
+47:54 : Rich Pace : But the question about, you know, the extensions being free, cloud code was free, but it shares whatever limit session limitations you have. So if you're using the free version, then it's the free version. It all and you'll run out of tokens. If you have a subscript.
+48:12 : Rich Pace : Subscription, you can attach your, your account to it, and it'll extend your session, right? But that is basically a subscription that you have outside of VS code with anthropic.
+48:25 : John Ryan : Can you just explain the, the token system briefly like.
+48:31 : John Ryan : For anything, what's a token and how do you know how many you have, and.
+48:36 : Rich Pace : We have no idea. All I know is that when I run out a tokens, I usually pretty upset. And I tend to run out of tokens pretty quickly. So my understanding is you put in a request into any kind of AI.
+48:52 : Rich Pace : Engine.
+48:54 : Rich Pace : And it's going to interpret that. And.
+48:57 : Rich Pace : Just to interpret what you put in there may require.
+49:01 : Rich Pace : X number of tokens because it has to break down everything and then it has to analyze it in any number of ways and TURN everything that it read that you put in into a set of instructions and then it's gonna execute each set of instructions and which in TURN could exec, you know, could form new sets of instructions and every one of those is a token.
+49:22 : Rich Pace : Or a number of tokens, and you have X number total with anthropic. Chat GPT doesn't limit you, I think you when you reach the token limitation, it just slows you down. It just, you, you're just deprioritized, but anthropic just stops.
+49:40 : Rich Pace : Oh.
+49:43 : Rich Pace : It's very difficult, not difficult, it's they keep it mystical because I'll, you know, it used to just stop, you know, and not even reply to whatever you run out of tokens and you wouldn't even get a reply anymore. Now at least it finishes whatever session you did. And it gives you a reply and it'll tell you, you reach your session.
+50:03 : Rich Pace : Right? Do you want more? Please give me more money.
+50:09 : Anupam Dey : So basically, John, any, any word that we put in any AI tool writing even our circuit, right?
+50:19 : John Ryan : Yeah.
+50:20 : Anupam Dey : Word utilizes certain token. And the average is around like four or five characters would take around.
+50:28 : Anupam Dey : I don't know, maybe point seven five to one token. So let's say even if you say thank you circuit, it will use certain token for it to, what do you call, understand whatever you wrote, right? So that's, that's a virtual currency that is assigned to every user that ok you have these many token.
+50:48 : Anupam Dey : That you can use. Now, if you put a complex request, you have.
+50:55 : Anupam Dey : The conversion of the word, also the output that you're looking for. Let's say in the output you want.
+51:02 : Anupam Dey : Good formatted Word document with certain indexes, characters, table, and everything, whatever not. Then in that case it will use the output token as well. Like, these are the number of tokens I'm gonna use. So it's it's basically a virtual currency for the interaction.
+51:22 : John Ryan : And you have a finite number over a certain period of time, and then it resets.
+51:27 : Anupam Dey : I don't know how it is how how it resets and how it does whatever it does. There is certain parameters to it. I don't, I just don't know how it is assigned or given.
+51:41 : Phil Toy : The case of clawed that's, that's true. And I, it's probably different for each, but.
+51:49 : Phil Toy : I also know like if you have a long conversation, like if you're, you know, going back and forth with, with circuit or Quad in this case, you know, the first question and answer maybe a few tokens, right? But then as you keep asking or keep.
+52:08 : Phil Toy : Communicating, it has to pull in the history again. So, so the first question and answer.
+52:17 : Phil Toy : Those are tokens that are also used in the second question and answer. So as you continue on with long conversations, you start to use tokens faster and faster.
+52:30 : Rich Pace : This is what I wanna show. So I I I just uploaded a file to the circuit early a word file, and it tells you there's a one gig one gig size and one million token limit, and it tells you how many tokens this file was.
+52:44 : John Ryan : Oh cool. Yeah.
+52:46 : Phil Toy : And, and that's where I was like so that's sixteen thousand tokens and, you know, your second question y you will have used thirty two thousand tokens cause it's got a, keep that in its memory, right? So it starts to be used up faster and faster, the more you use it.
+53:11 : John Ryan : Okay, interesting.
+53:16 : John Ryan : So.
+53:20 : Rich Pace : One of the benefits of circuit is that you don't seem to run out of your session limit. You don't seem to hit that session limit. So.
+53:29 : Rich Pace : That's kind of neat.
+53:31 : John Ryan : Yeah.
+53:33 : Phil Toy : Yeah I mean it's, it's slow as melasses, but you don't hit the limit. It is nice.
+53:42 : John Ryan : You're even calling, you're calling circuits slow.
+53:45 : Phil Toy : Oh gosh, compared to compared to Claud, like just on the web, yeah, I.
+53:51 : John Ryan : Yeah. Compared to that, yeah, but compared to anything before prior to what we had, what we have now?
+53:58 : Rich Pace : To see, you know what? Once we get used to it.
+54:05 : Phil Toy : One more.
+54:07 : John Ryan : Leave it.
+54:09 : Rich Pace : Are we slow rolled our services? No.
+54:16 : John Ryan : Right, this was very helpful, at least for, for me for sure.
+54:22 : Rich Pace : Any questions, right? Well, I like, and five minutes before the time so people can get up and walk.
+54:30 : Rich Pace : Any questions concerns, issues? I think the next session I'm on I I leave on two weeks PTO I leave on Sunday, so I'm not gonna.
+54:40 : Rich Pace : I'm not gonna do anything. I'm I'll be driving in Many and Austria, so.
+54:45 : John Ryan : Yeah. How's I pinged Erik Chew and maybe you and him, you and he can get together to to see what he has in that deck that I was telling you that he had. Maybe there's.
+54:55 : Rich Pace : It's for us to join and I gave him a heads up that we'll probably be talking this week.
+54:59 : John Ryan : Oh, and maybe there's an opportunity for him to like stand something up next week or the week after whoever one of the other topics that I mean I hate to do it without you, but I wanna we wanna keep this thing rolling, so.
+55:11 : Rich Pace : I I wanna, by the end of the week hopefully I'll have a, like a NAT not the dates, but at least the syllabus or a schedule of like with the next hop, the next set of topics would be. I want I think the next topic should be GitHub. I think there's a lot, there's a lot of.
+55:30 : Rich Pace : Information about GitHub and a lot of mystery about GitHub that I I think we can go through and then and then see how it's integrated into VS code and how VS code makes it easier.
+55:42 : Phil Toy : So would we also focus, I mean, I guess this is probably yes but you know get versus GitHub and.
+55:50 : Phil Toy : Because obviously they're different.
+55:53 : Rich Pace : No, I think one is the repository and the other one is the application that uses it.
+55:58 : Phil Toy : Yeah, basically.
+56:00 : Rich Pace : Yeah cause I know there's the public GitHub and I know we have an Cisco internal GitHub, we've we've had that for decades.
+56:10 : John Ryan : Yeah, that would be helpful to understand the difference where how they work together.
+56:15 : Rich Pace : Yeah, I'll I'll I'll figure something out.
+56:19 : Rich Pace : Put it together.
+56:21 : John Ryan : Yeah, actually, like, I was telling for the rest of you guys I was telling Richi doesn't have to create all this content on his own, right? Derek's Got he's got a pretty comprehensive deck around the SD WAN as code sort of demo build so there could be bits and pieces we can extract out of that and cover maybe a topic or two from that.
+56:41 : John Ryan : If anybody else has material that you think might be beneficial in this program that Rich is running reach out, right? Can't be all on him to put this stuff together. But he will.
+56:55 : John Ryan : In the absence of anything else, but.
+56:58 : Rich Pace : There's also like.
+57:03 : Phil Toy : Uh.
+57:03 : Phil Toy : If you, for anyone that wants to learn Git, if you don't know it already, if you s if you Google Git ebook, it's the first result. It's really good. It pretty much tells you everything you need to know.
+57:19 : Rich Pace : E Book.
+57:20 : Phil Toy : It ebook.
+57:23 : Rich Pace : Yeah, Sounds like a Star Wars character.
+57:30 : John Ryan : Excellent.
+57:34 : Rich Pace : Thank you. I hope this was helpful.
+57:37 : Rich Pace : As soon as they can I'll put something out about the next session, but like I said, I don't come back till.
+57:43 : John Ryan : Mid mi.
+57:46 : Rich Pace : Leave it to twenty six, so mid May.
+57:49 : Phil Toy : So sabbatical. This is not a vacation, this is like.
+57:54 : Rich Pace : Just two weeks.
+57:56 : Rich Pace : I leave I leave next Sunday.
+57:59 : Phil Toy : Sale, ok.
+58:01 : Rich Pace : I believe next on there.
+58:02 : Phil Toy : Huh. So.
+58:04 : Rich Pace : That is the fortieth, it's not the fifty.
+58:10 : Rich Pace : I have a marshallows thing I have to go to in Austria.
+58:16 : Rich Pace : In the middle of nowhere.
+58:21 : John Ryan : Very good. Hey, thanks a lot Richard I really appreciate it.
+58:23 : Rich Pace : Absolutely thank you everybody.
+58:25 : John Ryan : Thanks.
+58:26 : Anupam Dey : Thanks Rich I appreciate it.
+58:28 : Rich Pace : Thank you.
+

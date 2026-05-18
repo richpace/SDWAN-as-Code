@@ -1,0 +1,73 @@
+
+Your strategy for the live demo is **absolutely brilliant**. 
+
+The biggest hurdle with VS Code is the "blank canvas" problem. When an engineer opens it for the first time, it just looks like a dark-mode version of Notepad. By starting with a "vanilla" setup, opening a raw file (like a messy JSON or HTML file), and then installing extensions live to watch the file instantly color-code, format, and become readable, you will give them that exact "Aha!" moment. It perfectly proves your point: the value isn't the application itself; the value is the extensions.
+
+*Pro-Tip for your demo:* You do not need to uninstall all your personal extensions and ruin your current setup! VS Code recently introduced **"Profiles."** You can create a brand new, empty profile (Settings > Profiles > Create Profile), name it "Vanilla Demo," and switch to it for the meeting. It will look like a brand-new installation, and when the meeting is over, you just switch back to your default profile, and all your personal extensions and settings will instantly return.
+
+Here is the downloadable summary of the transcript you requested, followed by the short, punchy white paper for Module 2.
+
+***
+
+### Transcript Summary: Kick-Off Meeting (April 6, 2026)
+*(You can copy/paste this block into a document or email)*
+
+**Meeting:** SDWAN-as-Code Team Enablement Program - Kick-Off
+**Host:** Rich Pace
+**Date:** April 6, 2026
+
+**Key Takeaways & Decisions:**
+*   **The Catalyst (American Family Insurance):** Rich shared a recent interaction revealing that a major customer is already deploying ACI and SDWAN-as-Code independently, driven by their internal DevOps culture. This validated the reality that the industry is moving, and the team must be prepared to support these environments.
+*   **Addressing the Training Gap:** The team acknowledged that past training directives were incomplete and highly CLI-driven, leading to low adoption. This program will focus on a ground-up understanding of the tools rather than top-down mandates.
+*   **The "Single Pane of Glass" Myth:** The team discussed the ambition of centralized controllers. Rich emphasized the need to use the right tool for the right job (the "hammer" vs. the "Swiss Army Knife") rather than waiting for a perfect, monolithic interface that may never exist.
+*   **Lab Strategy:** Anupam suggested building a working lab together immediately. Rich and Phil Toy agreed on the end goal but cautioned against rushing. Phil noted significant errors when trying to set up the environment on a Mac. The team agreed to understand the tools *before* attempting to build the lab to avoid early frustration.
+*   **Enthusiasm & Cadence:** The team responded highly positively to the initiative. Phil Toy expressed a desire to meet twice a week due to the urgency of the information. The team ultimately agreed on a sustainable **bi-weekly cadence**.
+*   **Next Session (VS Code):** A poll revealed that 11 out of 13 attendees have VS Code installed, but many may not be actively using it. The next session will focus on demystifying VS Code and demonstrating its practical use.
+
+***
+
+### Draft: Module 2 Short White Paper
+
+This is designed to be a 1-page read. It sets the stage without overwhelming them, perfectly teeing up your live demo.
+
+***
+
+# Module 2: The Modern Workspace – Introduction to VS Code
+
+**The Blank Canvas Problem**
+If you have ever opened Visual Studio Code (VS Code) for the first time, you likely stared at a blank, dark screen and wondered, *"What am I supposed to do with this?"* 
+
+By itself, "vanilla" VS Code is little more than a text editor. It doesn't configure routers, it doesn't push code, and it doesn't inherently know anything about networking. Because of this, many engineers download it, open it once, and go right back to SecureCRT and Notepad++. 
+
+However, VS Code is not just an editor; it is an **Integrated Development Environment (IDE)**. It is designed to be the single workspace where you manage files, edit configurations, and orchestrate deployments. 
+
+**The Secret Sauce: Extensions**
+The true power of VS Code lies entirely in its **Extensions**. 
+
+VS Code was built to be a lightweight, modular shell. Instead of forcing you to use a monolithic tool filled with features you don't need, VS Code allows you to build a custom workspace tailored exactly to your daily tasks. You do this by downloading small, free plugins from the VS Code Marketplace.
+
+Depending on the extensions you install, VS Code transforms into:
+*   **A Syntax Checker:** Extensions can automatically color-code YAML and JSON files, instantly highlighting missing commas or formatting errors *before* you try to push a broken configuration to a device.
+*   **A File Orchestrator:** Extensions seamlessly connect your local files to GitHub, allowing you to track changes, compare versions, and collaborate with peers without ever leaving the window.
+*   **A Versatile Viewer:** You can install extensions to preview HTML, read Markdown files, format Python scripts, or even view MS Word documents directly inside the editor.
+
+**Finding Your Own Value**
+There is no "one right way" to use VS Code. While we will eventually use it to write and review SDWAN-as-Code configurations, its versatility means every engineer will use it differently. Your goal is not to memorize a strict set of rules, but to explore the extensions and build a workspace that makes your specific daily tasks easier.
+
+**Next Steps & Preparation**
+1.  **Download & Install:** If you haven't already, download VS Code (it is free and available in the Software Center or directly from Microsoft). 
+2.  **Don't Worry About Setup:** Do not worry about configuring it or installing extensions just yet. 
+3.  **The Next Session:** In our upcoming interactive session, we will start with a completely blank, "vanilla" version of VS Code. We will open a raw file and install extensions live to demonstrate exactly how the workspace transforms from a simple text editor into a powerful orchestration tool.
+
+***
+
+### How does this look?
+This keeps the reading light, validates their likely confusion with the tool, and builds anticipation for your live demo. 
+
+If you are happy with this, we can start outlining the actual "script" or flow for your live demo (e.g., which specific extensions you want to show off during the meeting). 
+
+***
+
+Footnote:
+If you wish to generate a PowerPoint presentation using the text above, please click the PPT icon.  
+ 
