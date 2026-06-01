@@ -1,0 +1,19 @@
+# Standard BGP Configuration for Site 100
+# Ticket: INC-998877
+templateName: BGP_Site_100
+templateDescription: Standard BGP Configuration
+templateType: bgp
+deviceType:
+  - vedge-C8300
+templateConfiguration:
+  asNumber: 65000
+  routerId: 10.1.1.1
+  neighbors:
+    # Primary MPLS Uplink provided by AT&T
+    - address: 192.168.1.1
+      remoteAs: 65001
+      description: Primary_MPLS
+    # Backup Internet provided by Comcast
+    - address: 192.168.2.1
+      remoteAs: 65002
+      description: Backup_Internet

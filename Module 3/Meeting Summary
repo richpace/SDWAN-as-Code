@@ -1,0 +1,43 @@
+### Part 1: Meeting Summary
+*(You can share this with the team)*
+
+**Meeting:** Session 3 – Git & GitHub (The Source of Truth)
+**Date:** May 18, 2026
+**Host:** Rich Pace
+
+**Key Takeaways & Demonstrations:**
+*   **The Bank Vault Analogy:** Rich introduced a helpful analogy to separate the tools: GitHub is the "Bank Vault" (the central repository holding the authoritative configurations), and Git is the "Armored Truck/ATM" (the engine executing the transactions to move files in and out of the vault).
+*   **Defining the Single Source of Truth (SSOT):** The team discussed how SSOT shifts authority away from the router's `running-config`. If a manual change is made on a device but not in GitHub, the automation tools will eventually overwrite the manual change to enforce compliance with the repository.
+*   **CLI vs. VS Code GUI:** Rich demonstrated the traditional, manual CLI method (`git add`, `git commit`, `git push`) to highlight its complexity, and contrasted it with VS Code's Source Control tab, which reduces the entire process to a few simple clicks.
+*   **Branching & Pull Requests:** To avoid making dangerous changes directly to production (`main`), Rich demonstrated creating a Branch. He made a local change, published the branch to GitHub, and walked through the **Pull Request** process. 
+*   **Peer Review:** The team saw how GitHub's visual "Diff" (red/green text) makes reviewing code changes simple. Roberto Velasco asked about the approval process, and the team agreed that GitHub standardizes traditional Change Review Board (CRB) approvals by allowing peers to review exact line-by-line changes before clicking "Merge."
+
+***
+
+### Part 2: Outstanding Items & Questions to Address
+
+**1. Jim Phillipo’s Deferred Question (Rollbacks)**
+*   *Question:* "Is there a way to fall back and say something was incorrect in the config? Is there a backup way to back out?"
+*   *Context:* Jim asked this right after you pushed a change directly to `main`. You deferred it, which was smart because you were about to show Branching. However, you still need to answer how to revert a bad commit that actually makes it into production.
+
+**2. Roberto Velasco’s Question (Process)**
+*   *Question:* "How do you know when it's okay to merge? Who do you discuss changes with?"
+*   *Context:* You answered this well on the call (explaining it depends on the customer's Change Review Board), but it is worth reiterating in your follow-up document that GitHub *facilitates* the process, but the customer dictates the *policy*.
+
+***
+
+### Part 3: Topics Missed Due to Interruption (For Your Follow-Up Paper)
+
+Because of the fire alarm, you missed the final ~5 minutes of the planned runbook. Your follow-up paper should cover these three specific items to "close the loop."
+
+**1. Closing the Loop (Syncing back to VS Code)**
+*   *What was missed:* You merged the Pull Request on the GitHub website, updating `main` in the cloud. However, you didn't have time to go back to VS Code, switch your local branch back to `main`, and click "Sync" to pull that merged change back down to your laptop. 
+*   *Why it matters:* If they don't do this, their laptop becomes out of sync with production. This is the #1 cause of Git errors for beginners.
+
+**2. The Audit Trail (The History Tab)**
+*   *What was missed:* Showing the "History" (clock icon) button on GitHub.
+*   *Why it matters:* This proves the "Code is the Documentation" concept. You need to show them that GitHub keeps a permanent, timestamped log of every commit message.
+
+**3. The "Undo" Button (Answering Jim's Question)**
+*   *What was missed:* Explaining the "Revert" function.
+*   *Why it matters:* Jim wants to know how to fix a mistake. You can explain that in GitHub, you can look at the History, find the bad commit, and click **Revert**. GitHub will automatically generate a *new* commit that mathematically undoes whatever the bad commit did, safely rolling the network back to the previous state.

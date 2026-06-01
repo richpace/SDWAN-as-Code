@@ -1,0 +1,161 @@
+4:29 : John Ryan : So Rich and Phil and.
+4:52 : John Ryan : I gotta drop at the bottom of the hour here.
+4:58 : John Ryan : Not that I'm important.
+5:01 : Rich Pace : Be so hard on yourself self, but where you are?
+5:22 : Phil Toy : This call is dominated by Phil's at two Phil's in a Philippo.
+5:29 : Rich Pace : Never thought about that.
+5:38 : Jim Phillipo : We're growing power in the universe.
+5:48 : John Ryan : Alright I'm welcome back.
+5:51 : Artem Surjko : Thank you, John.
+6:02 : Rich Pace : I'll I'll start at one oh five. So.
+7:20 : Rich Pace : And we're off next Monday.
+7:25 : Phil Toy : Yup.
+8:32 : Rich Pace : I don't think we're gonna get any more.
+8:37 : Rich Pace : Hopefully everybody had a chance to to to read the the short paper that I distributed last week.
+8:45 : Rich Pace : I guess it was some confusion on the previous weeks because I had included in the invitation. I don't think people Slido because many people don't open invitations. I'm probably guilty of that myself. So I try to send it out as a separate distribution as well. Did anybody not see it or has anybody having issues getting those papers.
+9:09 : Jim Phillipo : Are you recording?
+9:11 : Rich Pace : I should be.
+9:17 : Rich Pace : How do I confirm that.
+9:18 : Phil Toy : You're not you're.
+9:21 : Rich Pace : Maybe not recording, but it's being transcribed.
+9:33 : Rich Pace : I I am recording.
+9:38 : Rich Pace : So this week we just wanted to talk about Git and github. It's a s it's a big part of as code.
+9:50 : Rich Pace : It can be a little obscure as to what it does and it's not just as code as a platform, it seems to me, I'm gonna go a little bit, I'm gonna riff a little bit. It seems to be that it started as a version control for software development, but it's used as balloon into many other things not just soft not just software development, but.
+10:11 : Rich Pace : Just anything that requires versioning because as code is gonna leverage it, obviously dev OPs leverages it and as I learned last week, our Cisco IQ and our digitized delivery is gonna be.
+10:26 : Rich Pace : Leveraging it as well.
+10:30 : Rich Pace : So hopefully by getting a a peek into what it is and essentially quite simple, but what it is and how it works and why it's better to use the automation tools behind it to to access it than do it the manual way, the old way. Why it makes it easy to use that way.
+10:52 : Rich Pace : And so first I'll talk about the the the core concept, the life cycle branching, which is really where the power comes in and and the pull request, which is the second half of that power. So let's think about, let's think about get and GitHub is GitHub is the repository. It's the baitfall.
+11:11 : Rich Pace : It's the one place where.
+11:15 : Rich Pace : Everything is held accountable, you know, if you think about the bank ball, everybody always knows how much money is in there hopefully. And Git is the engine that takes money in and out. It could be the ATM machine, it could be whatever the armor truck, whatever, but it goes back and forth from the bank vault. And and it does transactions.
+11:35 : Rich Pace : And those transactions can be, you know, you're gonna put requests pull, you know, like get balance or whatever, but it's just interactions with the bankbold or with with the rep the repository.
+11:52 : Rich Pace : Is that analogy? Is anybody confused with that analogy or I can come up with other ones.
+12:01 : Rich Pace : I wanna know I wanted to make sure that we talked about the single source of truth and what it means. When we talk about, because it's a very pithing statement that I think it's overused and if we don't really understand what it means, then, we just ignore it. So we're talking about single source of truth. What it is is D.
+12:21 : Rich Pace : When it comes to s code. The entire network configuration is stored in the cloud on GitHub and a repository. And not necessarily GitHub but a GitHub or GitHub like repository.
+12:37 : Rich Pace : Before, the old way, we basically what we would do is.
+12:41 : Rich Pace : You wanted to know what, what a device configuration looked like you went to the device, you did a show run or whatever, a show command that you had to do, and it told you what it was.
+12:52 : Rich Pace : We, you could easily anybody could if they wanted to make a change to that device, they could make a change to the device. And if you wanted to document that change or keep track or backup that change, you would have to like make sure that that change was reflected in some kind of other place. And that was a very messy system especially when you had.
+13:12 : Rich Pace : Large networks and many people working with them.
+13:19 : Rich Pace : With GitHub, the single source of truth is you have one branch, you have this main branch, whatever you have, whatever the organization has decided, this is it. Every, this is the only one version that exists, right?
+13:35 : Rich Pace : And we use automation and and deployment tools that basically read off of that and push the configuration that finds on that branch to the devices themselves. That doesn't really prevent a user from logging onto a router, for example, and making a change. But if that.
+13:56 : Rich Pace : Change is not reflected and the re in the central repository, it'll be overwritten, either automatically if there's some kind of automatic push to devices on a periodic basis to maintain.
+14:13 : Rich Pace : To, to ensure that the network is always the same state or during the next, you know, if there's an if there's a push or if there's a change that somebody makes to the repository and they push that, right? It's gonna overwrite whatever's currently on the device.
+14:34 : Rich Pace : So that's what we talk about the single source of truth is you.
+14:39 : Rich Pace : You could look at the device and see what it, you know, what is currently configured at, but everything is gonna be pushed from the central repository. Any change has to be made to that central repository to and then from there it'll be pushed to the devices. So it's kind of like an agent or a broker for config.
+14:59 : Rich Pace : Devices. We're no, we're no longer making changes to the devices directly.
+15:09 : Rich Pace : So how do we typically move these files? And I have a I've been working on a demo, so hopefully we can look at that as well. So this is just to get us in the right.
+15:20 : Rich Pace : Framework.
+15:22 : Rich Pace : So you work on your file all the files that you're working on are on your local directory, on your PC laptop, but.
+15:31 : Rich Pace : And then you make a change. You make a change to that your to your local one and then you are going to commit that change locally, and then you're gonna sync that change.
+15:45 : Rich Pace : Which pushes it to the central repository.
+15:51 : Rich Pace : That's how simple it is.
+15:56 : Rich Pace : The power comes in when we start talking about branching, because you have a single source of truth, you have this main branch. You do not want to be able to make changes to that without those changes being reviewed or you wanna create some kind of safety net so that you don't make inadvertent changes that bring down your.
+16:18 : Rich Pace : So what happens is you create a branch, what a branch does, it creates, it basically creates a, a a copy of that main branch and everything change that you make is made on the branch. So if anybody while while you're making while you're working on your branch copy on your on your branch, if there is.
+16:38 : Rich Pace : An actual change made to the main one, it it will that is what's gonna get pushed. Any work that you've done on your branch is gonna be ignored until it's been reviewed and committed.
+16:56 : Rich Pace : So what that allows us to do is just imagine you have, you wanna try something new on your network or you want a new configuration. You create a branch, you can have a lab that reads that configuration on the branch, you can do all your testing, you can do anything that you want with it, and then once you're satisfied, you merge it back into the main.
+17:24 : Rich Pace : You kind of just talked about that right here, ok? So.
+17:28 : Rich Pace : So that's pretty much it for that. So.
+17:32 : Rich Pace : The old way of doing things is using the CLI and.
+17:45 : Rich Pace : So let's say, hang on one second, you need to prep something here.
+18:00 : Rich Pace : Let's say I come in here, I am working on.
+18:04 : Rich Pace : Is this thing move.
+18:16 : Rich Pace : I apologize, I had to make this smaller to the buttons on the on my screen are covering the window so I can't see everything, ok.
+18:25 : Rich Pace : Let's say I'm gonna go into this router. The same router that we had before, and I'm gonna go in here and I'm gonna say I'm gonna make this change.
+18:32 : Rich Pace : Right, I already have, I'm VS code is already configured.
+18:38 : Rich Pace : And connected to to GitHub and we'll get to GitHub.
+18:45 : Rich Pace : So I want to save that change.
+18:49 : Rich Pace : As soon as I save it, so you see right here, this is the GitHub connection. It's, it's already in there. It says that there's been a change made to write on iOS in this folder. The old way, and I'm not gonna, I'm not gonna do it in.
+19:05 : Rich Pace : I'm gonna do it in a terminal here, but not in a command prompt, but it's because the same thing. The old way would be, would have been to memorize the command, I don't know the commands because I never cared about memorizing these commands. And I don't have to anymore. It'd be like git, add.
+19:26 : Rich Pace : Yeah, I don't know git, add the file name.
+19:31 : Rich Pace : And a message. So.
+19:36 : Rich Pace : Let me try if I can do.
+19:40 : Rich Pace : And.
+19:42 : Rich Pace : IOS.
+19:50 : Rich Pace : This is a perfect example and illustration of what why this is a pain in the butt because I have to sit here and remember what folder I'm in, the commands I have to remember dash M for a message, I have to remember to do a push and it's all done via CLI or.
+20:05 : Rich Pace : With VS code, it kept track of it.
+20:09 : Rich Pace : And then this turned yellow, this turned blue, and I just said.
+20:15 : Rich Pace : I put in a message right here where I say.
+20:22 : Rich Pace : New GPAS cause that's the change that I made.
+20:26 : Rich Pace : I commit.
+20:34 : Rich Pace : We Sync.
+20:39 : Rich Pace : So commit is a local commitment sync is pushing it to the GitHub repository, and.
+20:46 : Phil Toy : Correct me if I'm wrong, but when you did that before you hit commit, there was an M.
+20:53 : Phil Toy : On the file, which I think means modified.
+20:57 : Rich Pace : Yes yes right here. The yes it means modified. Yeah, yeah. There's A D and m. There might be another one. But yes.
+21:15 : Rich Pace : And now.
+21:17 : Rich Pace : The changes here and it'll show you.
+21:22 : Rich Pace : So this is the get the this is the GitHub repository, so here's the original one, and if I reload, it should Yep, there's the change right there. But this is been done in main. This is the main branch right here, right?
+21:39 : Rich Pace : VS code just makes this so much easier. Oh.
+21:44 : Jim Phillipo : So we're trying a stupid question. Now, now, yeah, your page has gone off or your phone's going off cause APAC went completely offline. Is there a way to like fall back and say something wasn't incorrect in the config? Is there a backup way to back out.
+22:04 : Rich Pace : Can I defer that? Because I don't know if I wanna answer that later on.
+22:07 : Jim Phillipo : I'll wait. I'll wait.
+22:09 : Rich Pace : And I may not, but it's something we'll have to find out cause it's a good question.
+22:24 : Rich Pace : The problem with that is I just made the E even though it's through GitHub, I just made a change in Maine.
+22:32 : Rich Pace : And which means this configuration, in conjunction with other tools, cause right now we're only talking about thub, we're not talking about the deployment tools or the configuration tools, terraform, and the pipeline and CICD, we haven't come up with that covered those yet, and we're not integrating those here. But theoretically I just made these change.
+22:51 : Rich Pace : In main, which means it's going to get pushed to the device, but there was no error checking or nothing.
+23:00 : Rich Pace : So this is potentially catastrophic. So instead, the way that I would do it is let's say ten was wrong and it should have been sixty five oh eleven.
+23:12 : Rich Pace : Go to main, and I create a new branch. I'm sorry, not main. I I go down to this button on here, create a new branch, I will call it.
+23:23 : Rich Pace : New GPP, I'll call it corrected.
+23:38 : Rich Pace : Published branch is actually gonna create this branch and at GitHub and we'll go in and look at it in a second. So I published a branch here.
+23:54 : Rich Pace : Now this has changed for main to corrected BGPAS. That means that every anything that any files I'm working on is going to be in this branch. It's not all the main is gonna remain unchanged. So if we go to.
+24:11 : Rich Pace : And reload.
+24:17 : Rich Pace : You can see here there's a new corrected BGP AS.
+24:24 : Rich Pace : I will go back here, make this change, make it eleven, which is what I thought it should have been. All right I will save it. That was control S I apologize. I I, I saved it. I'll say here that I correct.
+24:42 : Rich Pace : You have to put a message in here and this is.
+24:45 : Rich Pace : This message is part of.
+24:49 : Rich Pace : Last session we discussed about the the code is the documentation because you are forced to put in some kind of message and you can be lazy about it, but because you're forced to put in some kind of message in here and it can be pretty extensive, and this will be part of the GitHub repository. This is where.
+25:10 : Rich Pace : It's self documents, ok? And and we should be able to see it on the at the GitHub site and correct it BTPA as.
+25:19 : Rich Pace : To sixty five eleven.
+25:25 : Rich Pace : Oh, and there's that right here is that M that you're referring to Phil? That means modified cause.
+25:40 : Rich Pace : And I will see what the changes to push them to GitHub.
+25:48 : Roberto Velasco : When does the branch get merged into the, the main? You.
+25:53 : Rich Pace : Do that explicitly and and I will get into that. I will show that as well.
+26:00 : Rich Pace : So now let me below here, ok. So.
+26:07 : Rich Pace : I am so here is a sixty five oh eleven, but I am looking here at this.
+26:13 : Rich Pace : At the branch. If I look at the default at main, it's still sixty five oh ten.
+26:26 : Rich Pace : Theoretically I I looked for it, but I couldn't figure it out to to to address your question, is theoretically, there's a way to merge into.
+26:39 : Rich Pace : Merge the change into the main branch or or or the main.
+26:46 : Rich Pace : Within VS code, but that is highly discouraged because the whole point of making the branches and changes is that you made a change and we wanna have some kind of pure review that is going to approve those changes. So ideally, we make those changes within here itself.
+27:06 : Rich Pace : And I have to see if I can remember how I did this.
+27:15 : Rich Pace : So when I went to.
+27:19 : Rich Pace : So the GitHub is smart enough to understand that.
+27:25 : Rich Pace : A change has been or a branch has been made and has been pushed. So this means somebody, somebody.
+27:31 : Rich Pace : Created a branch, made a bunch of changes, whatever and they theoretically, they had tested, they have confirmed all the changes and all that, and now they want, because they pushed that branch back onto GitHub, they, we assume that that branch is.
+27:46 : Rich Pace : What they want to push and merge into it. So what we do here, it, it GitHub recognizes, so we say compare and pull request.
+27:59 : Rich Pace : It automatically added the message here to the title. You can add it a description if you like, create pull requests.
+28:07 : Rich Pace : Oh hang on a second. I wanted to show you something.
+28:12 : Rich Pace : View pull requests.
+28:19 : Rich Pace : I wonder if we can cancel this. It'll be a good one.
+28:25 : Rich Pace : Okay, this is what I wanna see. So, right here, it shows you the change. So in, in the previous change before I click that button, had I scroll down this window would have showed up and it shows you what the change is. It's gonna delete this line and add this line.
+28:44 : Rich Pace : So we're back to like what happened after I created that the pull request and here if I have no problems, I just say merge pull request.
+28:56 : Rich Pace : My commit message and description confirm merge.
+29:04 : Rich Pace : Okay, so now we should be able to go to.
+29:08 : Rich Pace : Code.
+29:17 : Rich Pace : And there it is, sixty five eleven. This is on me right here.
+29:27 : Rich Pace : This one if we go to here.
+29:31 : Rich Pace : I missed it, I probably overlooked it. Now that the this branch is no longer needed. Github prompted me and I just ignored it. If I wanna delete the branch because it's already been merged, so this branch is good to delete.
+29:47 : Rich Pace : I wonder if there's a way to do it from here.
+29:55 : Rich Pace : Does this address your your your concern or question?
+30:01 : Roberto Velasco : I get how we do it but I guess.
+30:05 : Roberto Velasco : Process wise and when you're assigned to, you know, an SD WAN as a code project.
+30:14 : Roberto Velasco : Who do you discuss your changes with? Like, with the rights of the project team or what or is it with the PM.
+30:23 : Roberto Velasco : How do you know when to, when it's ok to merge the.
+30:30 : Rich Pace : I think there's gonna be a case by case depending on the sensitivity of the change as well as.
+30:38 : Rich Pace : The customer.
+30:40 : Rich Pace : Because some customers may have peer review boards.
+30:44 : Roberto Velasco : Oh, ok. Got it. Yep. Okay.
+30:47 : Rich Pace : I think this process like standardizes the, those review boards.
+30:54 : Rich Pace : You know, I think there's CRS change review boards i've heard of crbs I've heard of a couple of other things, but basically any change before it goes into the network has to be reviewed.
+31:05 : Rich Pace : I think.
+31:07 : Rich Pace : It should be someone else in the person making the change, ideally, in a large environment or especially in the critical environment, right? So when I look at this, I was like wow, this is a pretty decent way of doing it because it's no longer.
+31:23 : Rich Pace : Somebody submitting the changes on on a Word format or Excel or whatever, and then somebody having to review and then having to like find the exact changes or it's only a partial change. It shows you line by line which lines are being removed, which ones, which one lines are being added.
+31:46 : Rich Pace : I apologize. I have a far alarm going off.
+31:52 : Rich Pace : Be safe. Evacuated. Yeah, it's nothing but I have to evacuate or either that or you're gonna have to listen to Can you hear it?
+32:02 : Phil Toy : Not really, but you're fading in and out.
+32:05 : John Ryan : I'm on mute.
+32:07 : Rich Pace : Well, if I'm mute, how am I gonna hear me?
+32:10 : John Ryan : Going outside.
+32:12 : Rich Pace : You gotta think about this.
+32:15 : John Ryan : Just evacuate man, we can pick this up la.
+32:18 : Rich Pace : As a matter of fact I think I'm pretty much at the end of this so I apologize, I I I had to cut this short.
+32:26 : John Ryan : Understood. So.
+
